@@ -24,14 +24,14 @@ ul, menu{
 /* LAYOUT
 /*******************************************/
 
-/* Psudo-Class*/
+/* Class */
 
 .width100{
   width: 100%;
 }
 
 .backroundC01{
-  background-color: rgb(196, 196, 196);
+  background-color:#F8D0A1;
 }
 
 .backround02{
@@ -47,33 +47,43 @@ ul, menu{
 
 header{
   height: 50px;
+  display:flex;
+  align-items: center;
 }
 
 nav{
   height: relative;
 }
-
 .listHeader{
-  padding: 1em;
+  display: flex;
+  align-items: center;
 }
 
 .listHeader>li{
-  width: 13%;
+  width: 15%;
   text-align: center;
 }
 
+.listHeader a{
+  color: #5C5444;
+}
+
 .listHeader>.logoHomeHeader{
-  width: 48%;
+  width: 40%;
 }
 
 /* Logo Section*/
 
 .logoSection{
   height: 600px;
-  background-color: aqua;
+  background-color:rgb(88,98,89);
   align-items: center;
 }
 
+.img-MiniLogo{
+  width: 10em;
+  align-self: flex-start;
+}
 /* Location Section */
 
 .locationSection{
@@ -152,6 +162,7 @@ nav{
 footer{
   display: flex;
   justify-content: space-between;
+  background-color: #5C5444;
   height: 250px;
   padding: 3em;
 }
