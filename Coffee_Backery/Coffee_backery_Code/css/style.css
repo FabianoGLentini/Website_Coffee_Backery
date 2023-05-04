@@ -24,167 +24,57 @@ ul, menu{
 /* LAYOUT
 /*******************************************/
 
-/* Class */
+/*Comon properties*/
 
 .width100{
   width: 100%;
 }
 
-.backroundC01{
-  background-color:#F8D0A1;
+.height100{
+  height: 100%;
 }
 
-.backround02{
-  background-color: bisque;
-}
-
-.flexJustifyCenter{
+.displayFlex{
   display: flex;
-  justify-content: center;
 }
-
-/* header */
-
-header{
-  height: 50px;
-  display:flex;
+.flexRow{
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
-nav{
-  height: relative;
-}
-.listHeader{
+/*Body*/
+
+body{
   display: flex;
-  align-items: center;
-}
-
-.listHeader>li{
-  width: 15%;
-  text-align: center;
-}
-
-.listHeader a{
-  color: #5C5444;
-}
-
-.listHeader>.logoHomeHeader{
-  width: 40%;
-}
-
-/* Logo Section*/
-
-.logoSection{
-  height: 600px;
-  background-color:rgb(88,98,89);
-  align-items: center;
-}
-
-.img-MiniLogo{
-  width: 10em;
-  align-self: flex-start;
-}
-/* Location Section */
-
-.locationSection{
-  height: 850px;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-}
-
-.headingDisplay{
-  height: 125px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.headingTittle{
-  display: flex;
-  align-self: center;
-}
-
-.locationInfo{
-  height: 50em;
-  margin-top: 5em;
-  padding: 3em;
-  display: flex;
-  justify-content: center;
-}
-
-/* Menu Display List*/
-
-.menuDisplay{
-  padding: 2em 7em 0 7em;
   flex-direction: column;
 }
 
-.menuTypeSelection{
-  display: flex;
-  justify-content: center;
-  padding-bottom: 3em;
-}
+/*Header*/
 
-.menuTypeSelection>li{
-  padding: 0 3em;
-  margin: 0 1em;
-  border-bottom: 1px solid orange;
-}
-
-.menuList{
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 0 5% 5% 5%;
-}
-
-.additionalMenuLink{
-  text-align: center;
-  width: 100%;
-  padding-top: 3%;
-}
-
-.productContainer{
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: 1.5em;
-  flex: 0 0 200px;
-  height: 250px;
-  margin: 2em;
-  background-color: rgb(100, 100, 192);
-}
-
-/* footer */
-
-footer{
-  display: flex;
+header nav{
   justify-content: space-between;
-  background-color: #5C5444;
-  height: 250px;
-  padding: 3em;
+  margin: 0 5%;
+  padding: 1rem;
 }
 
-
-.alignRight{
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-  justify-content: flex-end;
-
+header nav>ul>*{
+  width: 8.813rem;
 }
-
-.alignLeft{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+ /*Color*/
+
+/*Page Color*/
+
+.mainColor01{
+   background-color: #F8D0A1;
+ }
+
+
+ /*Fonts*/
+ 
