@@ -2,6 +2,30 @@
 /* CSS
 /*******************************************/
 
+/*Imported Fonts*/
+
+@font-face{
+  font-family: 'Volkhov';
+  font-weight: 400;
+  src: url('assets/Fonts/volkhov-regular-webfont.woff2') format('woff2')
+       url('assets/Fonts/volkhov-regular-webfont.woff') format('woff') 
+}
+
+@font-face{
+  font-family: 'Vollkorn SC';
+  font-style:'Black';
+  font-weight: 900;
+  src: url('assets/Fonts/VollkornSC-Black.ttf') format('woff2')
+}
+
+@font-face{
+  font-family: 'Vollkorn';
+  font-style: Bold;
+  font-weight: 700;
+  src: url('assets/Fonts/vollkorn-bold-webfont.woff2') format('woff2')
+       url('assets/Fonts/vollkorn-bold-webfont.woff') format('woff') 
+}
+
 /* Box Model Hack */
 *{
   box-sizing: border-box;
@@ -19,6 +43,60 @@ li, a{
 ul, menu{
   padding: 0;
 }
+/******************************************
+/* Fonts
+/*******************************************/
+
+/* Headings General*/
+
+h1{
+  font-family:'Vollkorn';
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 134px;
+}
+
+h2{
+  font-family: 'Vollkorn SC';
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 89px;
+}
+
+h3{
+  font-family: 'Vollkorn SC';
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 56px;
+}
+
+h4, a{
+  font-family: 'Vollkorn SC';
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 34px;
+}
+
+
+.bodyTextLg{
+  font-family: 'Volkhov';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+p{
+  font-family: 'Volkhov';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+a{
+  font-size: 24px;
+}
+
+
 
 /******************************************
 /* LAYOUT
@@ -34,13 +112,21 @@ ul, menu{
   height: 100%;
 }
 
-.displayFlex{
-  display: flex;
-}
 .flexRow{
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alignTextLeft>*{
+  text-align: left;
+  width: 100%;
 }
 
 /*Body*/
@@ -54,13 +140,92 @@ body{
 
 header nav{
   justify-content: space-between;
-  margin: 0 5%;
+  margin: 0 2rem;
   padding: 1rem;
+  text-align: center;
 }
 
 header nav>ul>*{
   width: 8.813rem;
 }
+
+.socialIcons img, .socialIcons a, .socialIcons li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.socialIcons{
+  gap: 1.3em; 
+  height: 1em;
+}
+
+.socialIcons img{
+  width: 1.5rem;
+}
+
+/*Big logo section Home*/
+
+.LogoHomeSection{
+  justify-content: center;
+  height: 70em;
+}
+
+.LogoHomeSection img{
+  margin-bottom: 9%;
+}
+
+/*About Us Section*/
+
+.aboutUs{
+  max-width: 1120px;
+  gap: 25px;
+  padding-top: 3%;
+}
+
+.AboutUsSection{
+  min-height: 680px;
+  padding: 3% 0;
+}
+.aboutUsStylingBorder{
+  min-height: 725px;
+  padding: 1.5% 0;
+}
+
+/* Come Visit */
+
+.comeVisitSection{
+  max-width: 930px;
+  min-height: 556px;
+  background-color: rgba(72, 153, 169, 0.85) ;
+  margin: 13% auto 20% auto;
+  padding: 2%;
+}
+
+.comeVisitDetails{
+  justify-content: space-around;
+}
+
+.comeVisitDetails ul>*{
+  padding: 4% 0;
+}
+
+.comeVisitDetails div{
+  justify-content: start;
+  height: 20em;
+
+}
+
+.comeVisitSection{
+  gap: 1.5em;
+}
+
+/* Our Goods */
+
+.ourGoodsSection{
+  align-items: center;
+}
+
 
 
 /******************************************
@@ -75,6 +240,18 @@ header nav>ul>*{
    background-color: #F8D0A1;
  }
 
+ .mainColor02{
+  background-color:  #949C72;
+ }
 
- /*Fonts*/
+ /*Font colors*/
+ .whiteText{
+  color: white;
+ }
+
+ .brownText *{
+  color: #5C5444;
+  ;
+ }
+
  
