@@ -136,6 +136,10 @@ a{
   width: 100%;
 }
 
+.aligTextRight{
+  text-align: right;
+}
+
 /*Body*/
 
 body{
@@ -277,6 +281,21 @@ header nav>ul>*{
   background-color: #949C72;
 }
 
+/* Footer */
+
+footer{
+  padding: 4%;
+}
+
+.footerSection ul>*{
+  padding: 4% 0;
+}
+
+.footerSection{
+  justify-content: space-between;
+}
+
+
 
 
 /******************************************
@@ -293,6 +312,10 @@ header nav>ul>*{
 
  .mainColor02{
   background-color:  #949C72;
+ }
+
+ .focusColor{
+  background-color: #5C5444;
  }
 
  /*Font colors*/
