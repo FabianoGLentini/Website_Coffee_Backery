@@ -140,6 +140,22 @@ a{
   text-align: right;
 }
 
+/*Special pieces*/
+
+.bgImg{
+  background-image: url("assets/img/Big view Restaurant BG.png");
+  background-size: cover;
+  background-position: top ;
+  background-color: #85b9c4;
+}
+
+.bgImg02{
+  background-image: url("assets/img/Big view Restaurant BG.png");
+  background-size: cover;
+  background-position: bottom ;
+  background-color: #85b9c4;
+}
+
 /*Body*/
 
 body{
@@ -151,7 +167,7 @@ body{
 
 header nav{
   justify-content: space-between;
-  margin: 0 2rem;
+  margin: 0 2vw;
   padding: 1rem;
   text-align: center;
 }
@@ -179,38 +195,53 @@ header nav>ul>*{
 
 .LogoHomeSection{
   justify-content: center;
-  height: 70em;
+  padding: 32vh;
 }
 
 .LogoHomeSection img{
-  margin-bottom: 9%;
+  width: 80%;
+  min-width: 950px;
+  max-width: 1200px;
 }
 
 /*About Us Section*/
 
-.aboutUs{
-  max-width: 1120px;
-  gap: 25px;
-  padding-top: 3%;
+.aboutUsStylingBorder{
+  padding: 18px 0;
 }
 
 .AboutUsSection{
   min-height: 680px;
-  padding: 3% 0;
+  padding: 40px 0;
 }
-.aboutUsStylingBorder{
-  min-height: 725px;
-  padding: 1.5% 0;
+
+.aboutUs{
+  gap: 25px;
+  padding-top: 50px;
+  height: fit-content;
+
+}
+
+.aboutUs p{
+  width: 370px;
+  padding-bottom: 15px;
+}
+
+.aboutUs img{
+  min-width: 700px;
 }
 
 /* Come Visit */
 
 .comeVisitSection{
-  max-width: 930px;
-  min-height: 556px;
+  width: 67vh;
+  min-width: 930px;
+  height: 42vh;
+  min-height: 550px;
+  margin: 25vh auto;
+  padding: 35px; 
+  justify-content: start;
   background-color: rgba(72, 153, 169, 0.85) ;
-  margin: 13% auto 20% auto;
-  padding: 2%;
 }
 
 .comeVisitDetails{
@@ -222,14 +253,9 @@ header nav>ul>*{
 }
 
 .comeVisitDetails div{
-  justify-content: start;
-  height: 20em;
-
+  height: 80%;
 }
 
-.comeVisitSection{
-  gap: 1.5em;
-}
 
 /* Our Goods */
 
