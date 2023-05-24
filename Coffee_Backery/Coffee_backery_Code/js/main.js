@@ -6,5 +6,8 @@
 // Underline show up when hoevering over interactible links
 
 
+// document.querySelector(".hoverGlow").addEventListener("mouseover", hoverGlow)
 
-document.querySelector().style.border = "2px solid red"
+// function hoverGlow(){
+//     document.querySelector(".hoverGlow li").style.text-decoration: "underline";
+// }
