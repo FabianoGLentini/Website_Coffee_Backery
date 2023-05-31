@@ -179,7 +179,6 @@ body{
 
 header nav{
   justify-content: space-between;
-  margin: 0 2vw;
   padding: 1%;
   text-align: center;
 }
@@ -204,7 +203,7 @@ header nav>ul>*{
 }
 
 .miniLogo{
-  width: 38vh;
+  width: 330px;
 }
 
 /*Big logo section Home*/
