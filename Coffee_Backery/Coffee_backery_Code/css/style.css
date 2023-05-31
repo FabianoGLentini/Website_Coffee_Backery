@@ -233,13 +233,13 @@ header nav>ul>*{
 
 .aboutUs{
   gap: 25px;
-  padding-top: 50px;
+  padding: 95px 0;
   height: fit-content;
 
 }
 
 .aboutUs p{
-  width: 370px;
+  width: 390px;
   padding-bottom: 15px;
 }
 
@@ -369,5 +369,11 @@ footer{
   color: #5C5444;
   ;
  }
+
+
+ /******************************************
+/* Interactive effects
+/*******************************************/
+
 
  
