@@ -183,6 +183,10 @@ header nav{
   text-align: center;
 }
 
+.alignGroupRight{
+  display: v  ;
+}
+
 header nav>ul>*{
   width: 150px;
 }
@@ -203,6 +207,8 @@ header nav>ul>*{
 }
 
 .miniLogo{
+  align-self: center;
+  position:static;
   width: 330px;
 }
 
