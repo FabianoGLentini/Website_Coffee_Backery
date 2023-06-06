@@ -183,10 +183,6 @@ header nav{
   text-align: center;
 }
 
-.alignGroupRight{
-  display: v  ;
-}
-
 header nav>ul>*{
   width: 150px;
 }
