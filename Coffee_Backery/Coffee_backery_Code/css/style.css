@@ -208,6 +208,8 @@ header nav>ul>*{
   width: 330px;
 }
 
+
+
 /*Big logo section Home*/
 
 .LogoHomeSection{
@@ -319,9 +321,12 @@ header nav>ul>*{
   width: 25.33%;
   aspect-ratio: 1/1.3;
   margin: 3% 4%;
-  padding: 4%;
   border-radius: 55px;
-  background-color: #949C72;
+}
+
+.menuOptions li div{
+  position: absolute;
+  padding: 3%;
 }
 
 /* Footer */
@@ -337,6 +342,8 @@ footer{
 .footerSection{
   justify-content: space-between;
 }
+
+
 
 
 
