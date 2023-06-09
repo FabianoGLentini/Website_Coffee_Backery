@@ -185,6 +185,8 @@ header nav{
 
 header nav>ul>*{
   width: 150px;
+  padding: 0 5px;
+  height: 100%;
 }
 
 .socialIcons img, .socialIcons a, .socialIcons li{
@@ -395,9 +397,10 @@ footer{
 .hoverGlow::after{
   content: "";
   position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  color: white;
+  left: 5%;
+  bottom: 5px;
+  width: 90%;
   height: 2px;
   background-color: currentColor;
 
@@ -405,9 +408,14 @@ footer{
   transition: transform 110ms ease-in;
 }
 
+.hoverGlow:hover > a{
+  color: white;
+}
+
+.hoverGlow:hover{
+  background-color: #5C5444;
+}
+
 .hoverGlow:hover::after{
   transform: scaleX(1);
 }
-
-
- 
