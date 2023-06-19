@@ -329,6 +329,8 @@ header nav>ul>*{
 .menuOptions li div{
   position: absolute;
   padding: 3%;
+  background-color: #5C5444;
+  width: 25.3%;
 }
 
 /* Footer */
