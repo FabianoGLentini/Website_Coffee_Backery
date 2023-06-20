@@ -283,6 +283,7 @@ header nav>ul>*{
 .ourGoodsSection{
   align-items: center;
 }
+
 .ourGoodsSection>h2{
   display: flex;
   text-align: center;
@@ -323,7 +324,6 @@ header nav>ul>*{
   width: 25.33%;
   margin: 3% 4%;
   clip-path: inset(0% 0% 0% 0% round 55px);
-
 }
 
 .menuOptions section{
@@ -332,7 +332,7 @@ header nav>ul>*{
 
 .menuOptions li div{
   position: absolute;
-  padding: 2% 2%;
+  padding: 22px 2%;
   width: 30%;
   background-color: #5C5444;
   border-radius: 0 0 55px 55px;
