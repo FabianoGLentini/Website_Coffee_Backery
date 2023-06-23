@@ -310,7 +310,11 @@ header nav>ul>*{
 
 .menuCategorySelection li{
   padding: 0 4%;
-  border-bottom: 1px solid  #5C5444;
+  position: relative;
+}
+
+.menuCategorySelection li a{
+  position: relative;
 }
 
 .ourGoodsSection>section>nav ul{
@@ -424,4 +428,24 @@ footer{
 
 .hoverGlow:hover::after{
   transform: scaleX(1);
+}
+
+
+/*Our goods buttons*/
+
+.menuGlow::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: currentColor;
+  bottom: 0;
+  left: 0;
+
+  transform: scaleX(0.9);
+  transition: transform 60ms ease-in;
+}
+
+.menuGlow:hover::after{
+  transform: scaleX(1.1);
 }
