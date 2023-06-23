@@ -83,21 +83,21 @@ h4, a{
   line-height: 34px;
 }
 
-.bodyText, .comeVisitDetails li, footer li{
+.body-text, .come-visit-details li, footer li{
   font-family: sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 26px;
 }
 
-.bodyTextLg, .menuOptions span{
+.body-text-lg, .menu-options span{
   font-family: 'Volkhov', serif;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 26px;
 }
 
-.bodyText, p{
+.body-text, p{
   font-family: sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
@@ -123,45 +123,45 @@ a{
 
 /*Comon properties*/
 
-.width100{
+.width-100{
   width: 100%;
 }
 
-.height100{
+.height-100{
   height: 100%;
 }
 
-.flexRow{
+.flex-row{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.flexColumn{
+.flex-column{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.alignTextLeft>*{
+.align-text-left>*{
   text-align: left;
   width: 100%;
 }
 
-.aligTextRight{
+.alig-text-right{
   text-align: right;
 }
 
 /*Special pieces*/
 
-.bgImg{
+.bg-img{
   background-image: url("assets/img/Big view Restaurant BG.png");
   background-size: cover;
   background-position: top ;
   background-color: #85b9c4;
 }
 
-.bgImg02{
+.bg-img-02{
   background-image: url("assets/img/Big view Restaurant BG.png");
   background-size: cover;
   background-position: bottom ;
@@ -189,22 +189,22 @@ header nav>ul>*{
   height: 100%;
 }
 
-.socialIcons img, .socialIcons a, .socialIcons li{
+.social-icons img, .social-icons a, .social-icons li{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.socialIcons{
+.social-icons{
   gap: 13%; 
   height: 10%;
 }
 
-.socialIcons img{
+.social-icons img{
   width: 150%;
 }
 
-.miniLogo{
+.mini-logo{
   align-self: center;
   position:static;
   width: 330px;
@@ -214,12 +214,12 @@ header nav>ul>*{
 
 /*Big logo section Home*/
 
-.LogoHomeSection{
+.logo-home-section{
   justify-content: center;
   padding: 32vh;
 }
 
-.LogoHomeSection img{
+.logo-home-section img{
   width: 80%;
   min-width: 950px;
   max-width: 1200px;
@@ -227,34 +227,34 @@ header nav>ul>*{
 
 /*About Us Section*/
 
-.aboutUsStylingBorder{
+.about-us-styling-border{
   padding: 18px 0;
 }
 
-.AboutUsSection{
+.about-us-section{
   min-height: 680px;
   padding: 40px 0;
 }
 
-.aboutUs{
+.about-us{
   gap: 25px;
   padding: 95px 0;
   height: fit-content;
 
 }
 
-.aboutUs p{
+.about-us p{
   width: 390px;
   padding-bottom: 15px;
 }
 
-.aboutUs img{
+.about-us img{
   min-width: 700px;
 }
 
 /* Come Visit */
 
-.comeVisitSection{
+.come-visit-section{
   width: 67vh;
   min-width: 930px;
   height: 42vh;
@@ -265,26 +265,26 @@ header nav>ul>*{
   background-color: rgba(72, 153, 169, 0.85) ;
 }
 
-.comeVisitDetails{
+.come-visit-details{
   justify-content: space-around;
 }
 
-.comeVisitDetails ul>*{
+.come-visit-details ul>*{
   padding: 4% 0;
 }
 
-.comeVisitDetails div{
+.come-visit-details div{
   height: 80%;
 }
 
 
 /* Our Goods */
 
-.ourGoodsSection{
+.our-goods-section{
   align-items: center;
 }
 
-.ourGoodsSection>h2{
+.our-goods-section>h2{
   display: flex;
   text-align: center;
   align-items: center;
@@ -293,35 +293,35 @@ header nav>ul>*{
   height: 131px;
 }
 
-.menuOptions{
+.menu-options{
   flex-wrap: wrap;
   margin: 7% 0;
 }
 
-.ourGoodsSection>section{
+.our-goods-section>section{
   max-width: 1120px;
   padding-bottom: 3%;
 }
 
-.menuCategorySelection{
+.menu-category-selection{
   margin-top: 8%;
   gap: 3%;
 }
 
-.menuCategorySelection li{
+.menu-category-selection li{
   padding: 0 4%;
   position: relative;
 }
 
-.menuCategorySelection li a{
+.menu-category-selection li a{
   position: relative;
 }
 
-.ourGoodsSection>section>nav ul{
+.our-goods-section>section>nav ul{
   justify-content: center;
 }
   
-.menuOptions li{
+.menu-options li{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -330,11 +330,11 @@ header nav>ul>*{
   clip-path: inset(0% 0% 0% 0% round 55px);
 }
 
-.menuOptions section{
+.menu-options section{
   mask-composite: inherit;
 }
 
-.menuOptions li div{
+.menu-options li div{
   position: absolute;
   padding: 22px 2%;
   width: 30%;
@@ -342,7 +342,7 @@ header nav>ul>*{
   border-radius: 0 0 55px 55px;
 }
 
-.menuOptions li h4{
+.menu-options li h4{
   width: 8.2em ;
 }
 
@@ -352,11 +352,11 @@ footer{
   padding: 4%;
 }
 
-.footerSection ul>*{
+.footer-section ul>*{
   padding: 4% 0;
 }
 
-.footerSection{
+.footer-section{
   justify-content: space-between;
 }
 
@@ -368,24 +368,24 @@ footer{
 
 /*Page Color*/
 
-.mainColor01{
+.main-color-01{
    background-color: #F8D0A1;
  }
 
- .mainColor02{
+ .main-color-02{
   background-color:  #949C72;
  }
 
- .focusColor{
+ .focus-color{
   background-color: #5C5444;
  }
 
  /*Font colors*/
- .whiteText{
+ .white-text{
   color: white;
  }
 
- .brownText *{
+ .brown-text *{
   color: #5C5444;
   ;
  }
@@ -439,7 +439,7 @@ footer{
   height: 2px;
   width: 100%;
   background-color: currentColor;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
 
   transform: scaleX(0.9);
