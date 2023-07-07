@@ -316,11 +316,6 @@ header nav>ul>*{
   position: relative;
 }
 
-.menu-category-selection li a{
-  position: relative;
-  z-index: 1;
-}
-
 .our-goods-section>section>nav ul{
   justify-content: center;
 }
@@ -336,7 +331,7 @@ header nav>ul>*{
     /*Product display*/
 
     .menu-options li{
-      border-radius: 66px;
+      border-radius: 55px;
       border: 10px solid #5C5444;
       overflow: hidden;
       display: flex;
@@ -355,10 +350,24 @@ header nav>ul>*{
       height: 100%;
       top: 75%;
       position: absolute;
+      align-items: flex-start;
       background: #85b9c4;
-      padding: 5px 12px;
+      padding: 15px 12px;
       display: flex;
-      justify-content: space-between;
+      gap: 25px;
+      
+      transition: 0.5s;
+    }
+
+    .main-produc-info{
+      width: 100%;
+      justify-content: space-around;
+    }
+
+    .product-card:hover .card-body{
+      top: 0%;
+      background: #85bac4a1;
+      backdrop-filter: blur(2px);
     }
 
 /* Footer */
