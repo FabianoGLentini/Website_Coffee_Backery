@@ -330,7 +330,7 @@ header nav>ul>*{
 
     /*Product display*/
 
-    .menu-options li{
+    .product-card{
       border-radius: 55px;
       border: 10px solid #5C5444;
       overflow: hidden;
@@ -339,7 +339,7 @@ header nav>ul>*{
       position: relative;
     }
 
-    .menu-options img{
+    .product-card img{
     width: 100%; 
     height: 100%;
     object-fit: cover;
