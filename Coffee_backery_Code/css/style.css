@@ -320,11 +320,11 @@ header nav>ul>*{
   justify-content: center;
 }
   
-.menu-options li{
+.product-card{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 20.33%;
+  width: 255px;
   margin: 3% 4%;
 }
 
@@ -368,6 +368,10 @@ header nav>ul>*{
       top: 0%;
       background: #85bac4a1;
       backdrop-filter: blur(2px);
+    }
+
+    .product-card:hover .product-card{
+      width: 120px;
     }
 
 /* Footer */
