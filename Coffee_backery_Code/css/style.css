@@ -325,9 +325,7 @@ header nav>ul>*{
 
     .product-card{
       border-radius: 55px;
-      border: 10px solid #5C5444;
       overflow: hidden;
-      display: flex;
       flex-shrink: 0;
       position: relative;
       flex-direction: column;
@@ -349,19 +347,15 @@ header nav>ul>*{
       height: 100%;
       top: 75%;
       position: absolute;
-      align-items: center;
       background: #85b9c4;
       display: flex;
       padding: 10% 10%;
       gap: 25px;
       
-      transition: 0.5s;
+      transition: 0.4s;
     }
 
-    .main-product-info{
-      width: 100%;
-      justify-content: space-around;
-    }
+ 
 
     .product-card:hover .card-body{
       top: 0%;
@@ -373,7 +367,7 @@ header nav>ul>*{
     .product-card:hover{
       transform: scale(1.1);
       z-index: 2;
-      box-shadow: 0 0 30px 2px  #5C5444;
+      box-shadow: 0 0 20px 2px  #5C5444;
     }
 
 
