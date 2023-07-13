@@ -308,7 +308,7 @@ header nav>ul>*{
 
 .menu-category-selection{
   margin-top: 5%;
-  gap: 3%;
+  padding-bottom: 25px;
 }
 
 .menu-category-selection li{
@@ -343,7 +343,6 @@ header nav>ul>*{
     }
 
     .card-body{
-      width: 100%;
       height: 100%;
       top: 75%;
       position: absolute;
@@ -368,6 +367,12 @@ header nav>ul>*{
       transform: scale(1.1);
       z-index: 2;
       box-shadow: 0 0 20px 2px  #5C5444;
+    }
+
+    .main-product-info{
+      /* width: 100%; */
+      justify-content: space-around;
+      align-items: baseline;
     }
 
 
