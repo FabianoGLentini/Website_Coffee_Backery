@@ -578,3 +578,11 @@ footer{
     text-align: center;
   }
 }
+
+@media (max-width: 756px){
+
+  /* Special bg*/
+  .bg-img-02{
+    background-size: 1300px;
+  }
+}
