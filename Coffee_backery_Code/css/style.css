@@ -550,3 +550,14 @@ footer{
   transform: scaleX(0.95);
   color: white;
 }
+
+/*Media Querry*/
+
+@media (max-width: 624px){
+
+  /*Product display*/
+  
+  .product-card{
+    width: 40%;
+  }
+}
