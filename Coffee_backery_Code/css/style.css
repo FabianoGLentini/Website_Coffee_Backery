@@ -251,29 +251,53 @@ header nav>ul>*{
 .about-us img{
   min-width: 700px;
 }
-  /*Pointer*/
 
-   .pointer{
+/*Pointers*/
+
+  /*01*/
+
+  .custom-shape-divider-bottom-1689962334 {
     position: absolute;
-    /* bottom: 0;
-    left: 0; */
+    bottom: 1;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
-  } 
+}
 
-  .pointer svg{
+.custom-shape-divider-bottom-1689962334 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 70px;
-  }
+    height: 5rem;
+    z-index: 1;
+    transform: rotate(180deg);
+}
 
-  .pointer .shape-fill {
-    fill: #FFFFFF;
-  }
- 
+.custom-shape-divider-bottom-1689962334 .shape-fill {
+    fill: #949C72;
+}
+
+
+  /*02*/
+  .custom-shape-divider-bottom-1689960331 {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.custom-shape-divider-bottom-1689960331 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 5rem;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689960331 .shape-fill {
+    fill: #F8D0A1;
+}
+
 
 
 /* Come Visit */
