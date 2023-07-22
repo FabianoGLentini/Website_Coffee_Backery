@@ -439,8 +439,10 @@ footer{
 }
 
 .footer-section{
+  flex-wrap: wrap;
   justify-content: space-between;
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -559,5 +561,19 @@ footer{
   
   .product-card{
     width: 40%;
+  }
+}
+
+@media (max-width: 569px){
+
+  /*footer*/
+
+  .footer-section{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer-section div *{
+    justify-content: center;
   }
 }
