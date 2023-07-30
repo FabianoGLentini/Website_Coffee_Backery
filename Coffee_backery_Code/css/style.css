@@ -210,18 +210,16 @@ header nav>ul>*{
   width: 330px;
 }
 
-
-
 /*Big logo section Home*/
 
 .logo-home-section{
   justify-content: center;
-  padding: 32vh;
+  padding: 32vh 5vh;
 }
 
 .logo-home-section img{
-  width: 80%;
-  min-width: 950px;
+  width: 900%;
+  min-width: 5rem;
   max-width: 1200px;
 }
 
@@ -231,12 +229,18 @@ header nav>ul>*{
   padding: 18px 0;
 }
 
+.about-us-section h3{
+  text-align: center;
+}
+
 .about-us-section{
   min-height: 680px;
   padding: 70px 0 40px 0;
 }
 
 .about-us{
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 25px;
   padding: 30px 0 95px 0;
   height: fit-content;
@@ -303,18 +307,21 @@ header nav>ul>*{
 /* Come Visit */
 
 .come-visit-section{
-  width: 67vh;
-  min-width: 930px;
-  height: 42vh;
-  min-height: 550px;
-  margin: 25vh auto;
-  padding: 35px; 
+  gap: 4rem;
+  width: min(67vw,930px);
+  height:  90%;
+  min-height:630px;
+  margin: 25vw auto;
+  padding: 55px; 
   justify-content: start;
   background-color: rgba(72, 153, 169, 0.85) ;
 }
 
 .come-visit-details{
   justify-content: space-around;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .come-visit-details ul>*{
@@ -322,7 +329,12 @@ header nav>ul>*{
 }
 
 .come-visit-details div{
-  height: 80%;
+  width: max(45%, 250px);
+}
+
+.come-visit-details div h4{
+  width: 100%;
+  text-align: center;
 }
 
 /* Our Goods */
