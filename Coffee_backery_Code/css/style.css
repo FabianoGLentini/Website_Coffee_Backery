@@ -177,6 +177,11 @@ body{
 
 /*Header*/
 
+header{
+  position: fixed;
+  z-index: 999;
+}
+
 header nav{
   justify-content: space-between;
   padding: 1%;
@@ -209,6 +214,11 @@ header nav>ul>*{
   position:static;
   width: 330px;
 }
+
+
+  /*header v 2*/
+
+  
 
 /*Big logo section Home*/
 
@@ -585,4 +595,37 @@ footer{
   .bg-img-02{
     background-size: 1300px;
   }
+}
+
+@media (max-width:1307px){
+ 
+  /*Header*/
+
+header nav>ul>*{
+  width: 150px;
+  padding: 0 5px;
+  height: 100%;
+}
+
+.social-icons img, .social-icons a, .social-icons li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-icons{
+  gap: 13%; 
+  height: 10%;
+}
+
+.social-icons img{
+  width: 150%;
+}
+
+.mini-logo{
+  align-self: center;
+  position:static;
+  width: 330px;
+}
+
 }
