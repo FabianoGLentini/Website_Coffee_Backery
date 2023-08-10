@@ -183,6 +183,9 @@ header{
 }
 
 header nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   padding: 1%;
   text-align: center;
@@ -601,31 +604,44 @@ footer{
  
   /*Header*/
 
-header nav>ul>*{
-  width: 150px;
-  padding: 0 5px;
-  height: 100%;
+  header{
+    position: fixed;
+    z-index: 999;
+  }
+  
+  header nav{
+    flex-direction: column;
+    justify-content: space;
+    padding: 1%;
+    text-align: center;
+  }
+  
+  header nav>ul>*{
+    width: 150px;
+    padding: 0 5px;
+    height: 100%;
+  }
+  
+  .social-icons img, .social-icons a, .social-icons li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .social-icons{
+    gap: 13%; 
+    height: 10%;
+  }
+  
+  .social-icons img{
+    width: 150%;
+  }
+  
+  .mini-logo{
+    align-self: center;
+    position:static;
+    width: 330px;
+    order
+  }
 }
 
-.social-icons img, .social-icons a, .social-icons li{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.social-icons{
-  gap: 13%; 
-  height: 10%;
-}
-
-.social-icons img{
-  width: 150%;
-}
-
-.mini-logo{
-  align-self: center;
-  position:static;
-  width: 330px;
-}
-
-}
