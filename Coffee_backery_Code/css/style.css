@@ -180,6 +180,7 @@ body{
 header{
   position: fixed;
   z-index: 999;
+  height: 8rem;
 }
 
 header nav{
@@ -194,7 +195,6 @@ header nav{
 header nav>ul>*{
   width: 150px;
   padding: 0 5px;
-  height: 100%;
 }
 
 .social-icons img, .social-icons a, .social-icons li{
@@ -204,24 +204,30 @@ header nav>ul>*{
 }
 
 .social-icons{
+  align-items: center;
   gap: 13%; 
-  height: 10%;
+  height: 100%;
 }
 
 .social-icons img{
   width: 150%;
 }
 
-.mini-logo{
-  align-self: center;
-  position:static;
-  width: 330px;
-}
+  /*MINI LOGO*/
 
+  .mini-logo{
+    width: 100%;
+    width: 330px;
+  }
 
-  /*header v 2*/
+  .test{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
 
-  
+  }
 
 /*Big logo section Home*/
 
@@ -605,21 +611,26 @@ footer{
   /*Header*/
 
   header{
+    display: flex;
     position: fixed;
     z-index: 999;
+    flex-direction: column;
+    height: auto;
   }
   
   header nav{
     flex-direction: column;
-    justify-content: space;
     padding: 1%;
-    text-align: center;
   }
   
   header nav>ul>*{
-    width: 150px;
     padding: 0 5px;
-    height: 100%;
+    text-align: start;
+  }
+
+  .nav-option{
+    display: flex;
+    flex-direction: column;
   }
   
   .social-icons img, .social-icons a, .social-icons li{
@@ -637,11 +648,11 @@ footer{
     width: 150%;
   }
   
-  .mini-logo{
-    align-self: center;
-    position:static;
-    width: 330px;
-    order
+  .test{
+    display: flex;
+    position: static;
   }
+
+
 }
 
