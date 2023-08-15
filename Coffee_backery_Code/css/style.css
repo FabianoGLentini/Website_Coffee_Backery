@@ -575,5 +575,6 @@ footer{
 
   .footer-section div *{
     justify-content: center;
+    text-align: center;
   }
 }
