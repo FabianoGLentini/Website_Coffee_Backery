@@ -621,11 +621,19 @@ footer{
   header nav{
     flex-direction: column;
     padding: 1%;
+    align-items: start;
+  }
+  
+  header nav>ul{
+    justify-content: flex-start;
+    align-items: start;
+    align-content: flex-start;
   }
   
   header nav>ul>*{
     padding: 0 5px;
-    text-align: start;
+    display: flex;
+    justify-content: center;
   }
 
   .nav-option{
@@ -636,7 +644,6 @@ footer{
   .social-icons img, .social-icons a, .social-icons li{
     display: flex;
     flex-direction: row;
-    align-items: center;
   }
   
   .social-icons{
