@@ -220,7 +220,7 @@ header nav>ul>*{
     width: 330px;
   }
 
-  .test{
+  .mini-logo-anchor{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -655,7 +655,7 @@ footer{
     width: 150%;
   }
   
-  .test{
+  .mini-logo-anchor{
     display: flex;
     position: static;
   }
