@@ -622,6 +622,7 @@ footer{
     flex-direction: column;
     padding: 1%;
     align-items: start;
+    display: none;
   }
   
   header nav>ul{
@@ -659,6 +660,28 @@ footer{
     display: flex;
     position: static;
   }
+
+    /*nav toggle effec*/
+
+    .nav-toggle{
+      display: none;
+    }
+
+    .nav-toggle:checked ~ nav{
+      display: block;
+    }
+
+    .nav-toggle-label{
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: 1em;
+      border: 1px solid red;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+    
 
 
 }
