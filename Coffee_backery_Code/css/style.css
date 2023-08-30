@@ -177,7 +177,16 @@ body{
 
 /*Header*/
 
+header{
+  position: fixed;
+  z-index: 999;
+  height: 8rem;
+}
+
 header nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   padding: 1%;
   text-align: center;
@@ -186,7 +195,6 @@ header nav{
 header nav>ul>*{
   width: 150px;
   padding: 0 5px;
-  height: 100%;
 }
 
 .social-icons img, .social-icons a, .social-icons li{
@@ -196,19 +204,30 @@ header nav>ul>*{
 }
 
 .social-icons{
+  align-items: center;
   gap: 13%; 
-  height: 10%;
+  height: 100%;
 }
 
 .social-icons img{
   width: 150%;
 }
 
-.mini-logo{
-  align-self: center;
-  position:static;
-  width: 330px;
-}
+  /*MINI LOGO*/
+
+  .mini-logo{
+    width: 100%;
+    width: 330px;
+  }
+
+  .mini-logo-anchor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+
+  }
 
 /*Big logo section Home*/
 
@@ -586,3 +605,84 @@ footer{
     background-size: 1300px;
   }
 }
+
+@media (max-width:1307px){
+ 
+  /*Header*/
+
+  header{
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    flex-direction: column;
+    height: auto;
+  }
+  
+  header nav{
+    flex-direction: column;
+    padding: 1%;
+    align-items: start;
+    display: none;
+  }
+  
+  header nav>ul{
+    justify-content: flex-start;
+    align-items: start;
+    align-content: flex-start;
+  }
+  
+  header nav>ul>*{
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-option{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-icons img, .social-icons a, .social-icons li{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .social-icons{
+    gap: 13%; 
+    height: 10%;
+  }
+  
+  .social-icons img{
+    width: 150%;
+  }
+  
+  .mini-logo-anchor{
+    display: flex;
+    position: static;
+  }
+
+    /*nav toggle effec*/
+
+    .nav-toggle{
+      display: none;
+    }
+
+    .nav-toggle:checked ~ nav{
+      display: block;
+    }
+
+    .nav-toggle-label{
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: 1em;
+      border: 1px solid red;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+    
+
+
+}
+
