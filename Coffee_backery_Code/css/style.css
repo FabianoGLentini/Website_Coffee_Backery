@@ -203,6 +203,16 @@ header nav>ul>*{
   align-items: center;
 }
 
+
+.nav-toggle{
+  display: none;
+}
+
+.nav-toggle-label{
+  display: none;
+  border: 5px solid blue;
+}
+
 .social-icons{
   align-items: center;
   gap: 13%; 
@@ -213,7 +223,7 @@ header nav>ul>*{
   width: 150%;
 }
 
-  /*MINI LOGO*/
+/*MINI LOGO*/
 
   .mini-logo{
     width: 100%;
@@ -226,7 +236,6 @@ header nav>ul>*{
     justify-content: center;
     align-self: center;
     position: absolute;
-
   }
 
 /*Big logo section Home*/
@@ -663,16 +672,12 @@ footer{
 
     /*nav toggle effec*/
 
-    .nav-toggle{
-      display: none;
-    }
-
     .nav-toggle:checked ~ nav{
       display: block;
     }
 
     .nav-toggle-label{
-      position: absolute;
+      /* position: absolute; */
       top: 0;
       left: 0;
       margin-left: 1em;
@@ -682,7 +687,5 @@ footer{
       align-items: center;
     }
     
-
-
 }
 
