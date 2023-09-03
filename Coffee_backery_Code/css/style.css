@@ -623,7 +623,6 @@ footer{
     position: fixed;
     z-index: 999;
     flex-direction: column;
-    height: auto;
   }
   
   header nav{
