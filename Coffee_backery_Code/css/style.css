@@ -672,6 +672,8 @@ footer{
 
     .nav-toggle:checked ~ nav{
       display: block;
+      height: auto;
+      background-color: #F8D0A1;
     }
 
     .nav-toggle-label{
