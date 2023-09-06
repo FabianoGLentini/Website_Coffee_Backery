@@ -158,14 +158,14 @@ a{
   background-image: url("assets/img/Big view Restaurant BG.png");
   background-size: cover;
   background-position: top ;
-  background-color: #85b9c4;
+  background-color: var(--accent-clr-01);
 }
 
 .bg-img-02{
   background-image: url("assets/img/Big view Restaurant BG.png");
   background-size: cover;
   background-position: bottom ;
-  background-color: #85b9c4;
+  background-color: var(--accent-clr-01);
 }
 
 /*Body*/
@@ -305,7 +305,7 @@ header nav>ul>*{
 }
 
 .custom-shape-divider-bottom-1689962334 .shape-fill {
-    fill: #949C72;
+    fill: var(--main-clr-02);
 }
 
 
@@ -326,7 +326,7 @@ header nav>ul>*{
 }
 
 .custom-shape-divider-bottom-1689960331 .shape-fill {
-    fill: #F8D0A1;
+    fill: var(--main-clr-01);
 }
 
 
@@ -341,7 +341,7 @@ header nav>ul>*{
   margin: 25vw auto;
   padding: 55px; 
   justify-content: start;
-  background-color: rgba(72, 153, 169, 0.85) ;
+  background-color:var(--accent-clr-03);
 }
 
 .come-visit-details{
@@ -425,7 +425,7 @@ header nav>ul>*{
       height: 100%;
       top: 75%;
       position: absolute;
-      background: #5C5444;
+      background: var(--focus-clr);
       display: flex;
       padding: 10% 10%;
       gap: 25px;
@@ -435,7 +435,7 @@ header nav>ul>*{
 
     .product-card:hover .card-body{
       top: 0%;
-      background: #85bac4a1;
+      background: var(--accent-clr-02);
       backdrop-filter: blur(2px);
       padding-top: 32%;
     }
@@ -443,7 +443,7 @@ header nav>ul>*{
     .product-card:hover{
       transform: scale(1.1);
       z-index: 2;
-      box-shadow: 0 0 20px 2px  #5C5444;
+      box-shadow: 0 0 20px 2px  var(--focus-clr);
     }
 
     .main-product-info{
@@ -479,25 +479,34 @@ footer{
 
 /*Page Color*/
 
+:root{
+  --main-clr-01: #F8D0A1;
+  --main-clr-02: #949C72;
+  --focus-clr: #5C5444;
+  --white-clr: white;
+  --accent-clr-01: #85b9c4;
+  --accent-clr-02: #85bac4a1;
+  --accent-clr-03: rgba(72, 153, 169, 0.85) ;
+}
 .main-color-01{
-   background-color: #F8D0A1;
+   background-color: var(--main-clr-01);
  }
 
  .main-color-02{
-  background-color:  #949C72;
+  background-color:  var(--main-clr-02);
  }
 
  .focus-color{
-  background-color: #5C5444;
+  background-color: var(--focus-clr);
  }
 
  /*Font colors*/
  .white-text{
-  color: white;
+  color: var(--white-clr);
  }
 
  .brown-text *{
-  color: #5C5444;
+  color: var(--focus-clr);
  }
 
 
@@ -510,14 +519,14 @@ footer{
 
 .hoverGlow{
   text-decoration: none;
-  color: #5C5444;
+  color: var(--focus-clr);
   position: relative;
 }
 
 .hoverGlow::after{
   content: "";
   position: absolute;
-  color: white;
+  color: var(--white-clr);
   left: 5%;
   bottom: 5px;
   width: 90%;
@@ -529,11 +538,11 @@ footer{
 }
 
 .hoverGlow:hover > a{
-  color: white;
+  color: var(--white-clr);
 }
 
 .hoverGlow:hover{
-  background-color: #5C5444;
+  background-color: var(--focus-clr);
   border-radius: 15px;
 }
 
@@ -546,7 +555,7 @@ footer{
 
 .menuGlow{
   text-decoration: none;
-  color: #5C5444;
+  color: var(--focus-clr);
   position: relative;
   height: 40px;
   border-radius: 15px;
@@ -555,7 +564,7 @@ footer{
 .menuGlow::after{
   content: "";
   position: absolute;
-  color:#5C5444;
+  color: var(--focus-clr);
   left: 5%;
   bottom: 4px;
   width: 90%;
@@ -567,17 +576,17 @@ footer{
 }
 
 .menuGlow:hover > a{
-  color: white;
+  color: var(--white-clr);
 }
 
 .menuGlow:hover{
-  background-color: #5C5444;
+  background-color: var(--focus-clr);
   border-radius: 15px;
 }
 
 .menuGlow:hover::after{
   transform: scaleX(0.95);
-  color: white;
+  color: var(--white-clr);
 }
 
 /*Media Querry*/
@@ -628,7 +637,7 @@ footer{
   .nav-body{
     display: block;
     height: auto ;
-    background-color: red;
+    background-color: var(--main-clr-01);
     transform: scale(1,0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
@@ -678,7 +687,7 @@ footer{
     .nav-toggle:checked ~ nav{
       display: block;
       height: auto;
-      background-color: #F8D0A1 ;
+      background-color: var(--main-clr-01);
       transform: scale(1,1);
     }
 
@@ -695,7 +704,7 @@ footer{
     .nav-toggle-label>span::before,
     .nav-toggle-label>span::after{
       display: block;
-      background-color: #5C5444;
+      background-color: var(--focus-clr);
       height: 3px;
       width: 2em;
       border-radius: 2px;
