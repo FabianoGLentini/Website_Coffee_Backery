@@ -208,9 +208,9 @@ header nav>ul>*{
   display: none;
 }
 
-.nav-toggle-label{
-  /* display: none; */
-}
+/* .nav-toggle-label{
+  display: none;
+} */
 
 .social-icons{
   align-items: center;
@@ -629,7 +629,13 @@ footer{
     flex-direction: column;
     padding: 1%;
     align-items: start;
+    display: block;
+    height: auto;
+    background-color: #F8D0A1 ;
+
     /* display: none; */
+    transform: scale(1,0);
+    transition: transform 400ms ease-in-out;
   }
   
   header nav>ul{
@@ -676,6 +682,7 @@ footer{
       display: block;
       height: auto;
       background-color: #F8D0A1 ;
+      transform: scale(1,1);
     }
 
     .nav-toggle-label{
