@@ -625,10 +625,10 @@ footer{
     flex-direction: column;
   }
   
-  header nav{
+  .nav-body{
     display: block;
-    height: 1500px;
-    /* background-color: red; */
+    height: auto ;
+    background-color: red;
     transform: scale(1,0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
@@ -637,7 +637,6 @@ footer{
   header nav>ul{
     justify-content: flex-start;
     align-items: start;
-    background-color: red;
   }
   
   header nav>ul>*{
