@@ -626,28 +626,26 @@ footer{
   }
   
   header nav{
-    flex-direction: column;
-    padding: 1%;
-    align-items: start;
     display: block;
-    height: auto;
-    background-color: #F8D0A1 ;
-
-    /* display: none; */
+    height: 1500px;
+    /* background-color: red; */
     transform: scale(1,0);
+    transform-origin: top;
     transition: transform 400ms ease-in-out;
   }
   
   header nav>ul{
     justify-content: flex-start;
     align-items: start;
-    /* align-content: center; */
+    background-color: red;
   }
   
   header nav>ul>*{
     padding: 0 5px;
     display: flex;
     justify-content: center;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
   }
 
   .nav-option{
@@ -687,8 +685,6 @@ footer{
 
     .nav-toggle-label{
       position: absolute;
-      top: 0;
-      left: 0;
       margin-left: 1em;
       border: 1px solid red;
       height: 69px;
@@ -719,6 +715,12 @@ footer{
 
     .nav-toggle-label>span::after{
       top: 7px;
+    }
+
+    .nav-toggle:checked ~ nav * {
+      opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+
     }
 
     
