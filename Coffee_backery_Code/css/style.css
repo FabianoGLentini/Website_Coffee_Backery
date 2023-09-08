@@ -477,9 +477,7 @@ footer{
 
  /*Color*/
 
-/*Page Color*/
-
-:root{
+ :root{
   --main-clr-01: #F8D0A1;
   --main-clr-02: #949C72;
   --focus-clr: #5C5444;
@@ -488,6 +486,10 @@ footer{
   --accent-clr-02: #85bac4a1;
   --accent-clr-03: rgba(72, 153, 169, 0.85) ;
 }
+
+/*Page Color*/
+
+
 .main-color-01{
    background-color: var(--main-clr-01);
  }
@@ -521,6 +523,7 @@ footer{
   text-decoration: none;
   color: var(--focus-clr);
   position: relative;
+
 }
 
 .hoverGlow::after{
@@ -533,7 +536,7 @@ footer{
   height: 2px;
   background-color: currentColor;
 
-  transform: scaleX(0);
+  transform: scaleX(0.0001);
   transition: transform 110ms ease-in;
 }
 
