@@ -204,11 +204,7 @@ header nav>ul>*{
 }
 
 
-.nav-toggle{
-  display: none;
-}
-
-/* .nav-toggle-label{
+/* .nav-toggle{
   display: none;
 } */
 
@@ -641,9 +637,9 @@ footer{
     display: block;
     height: auto ;
     background-color: var(--main-clr-01);
-    transform: scale(1,0);
-    transform-origin: top;
-    transition: transform 400ms ease-in-out;
+    /* transform: scale(1,0); */
+    /* transform-origin: top; */
+    /* transition: transform 400ms ease-in-out; */
   }
   
   header nav>ul{
@@ -655,8 +651,8 @@ footer{
     padding: 0 5px;
     display: flex;
     justify-content: center;
-    opacity: 0;
-    transition: opacity 150ms ease-in-out;
+    /* opacity: 0; */
+    /* transition: opacity 150ms ease-in-out; */
   }
 
   .nav-option{
@@ -691,13 +687,12 @@ footer{
       display: block;
       height: auto;
       background-color: var(--main-clr-01);
-      transform: scale(1,1);
+      /* transform: scale(1,1); */
     }
 
     .nav-toggle-label{
       position: absolute;
       margin-left: 1em;
-      border: 1px solid red;
       height: 69px;
       display: flex;
       align-items: center ;
@@ -728,11 +723,10 @@ footer{
       top: 7px;
     }
 
-    .nav-toggle:checked ~ nav * {
+    /* .nav-toggle:checked ~ nav * {
       opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
-
-    }
+    } */
 
     
 }
