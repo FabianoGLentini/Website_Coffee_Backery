@@ -44,9 +44,6 @@ ul, menu{
   padding: 0;
 }
 
-button{
-  display: none;
-}
 /******************************************
 /* Fonts
 /*******************************************/
@@ -655,8 +652,6 @@ footer{
     padding: 0 5px;
     display: flex;
     justify-content: center;
-    /* opacity: 0; */
-    /* transition: opacity 150ms ease-in-out; */
   }
 
   .nav-option{
@@ -687,51 +682,7 @@ footer{
 
     /*nav toggle effec*/
 
-    .nav-toggle:checked ~ nav{
-      display: block;
-      height: auto;
-      background-color: var(--main-clr-01);
-      /* transform: scale(1,1); */
-    }
-
-    .nav-toggle-label{
-      position: absolute;
-      margin-left: 1em;
-      height: 69px;
-      display: flex;
-      align-items: center ;
-    }
-
-    .nav-toggle-label>span,
-    .nav-toggle-label>span::before,
-    .nav-toggle-label>span::after{
-      display: block;
-      background-color: var(--focus-clr);
-      height: 3px;
-      width: 2em;
-      border-radius: 2px;
-      position: relative;
-    }
-
-    .nav-toggle-label>span::before,
-    .nav-toggle-label>span::after{
-      content: " ";
-      position: absolute;
-    }
-
-    .nav-toggle-label>span::before{
-      bottom: 7px;
-    }
-
-    .nav-toggle-label>span::after{
-      top: 7px;
-    }
-
-    /* .nav-toggle:checked ~ nav * {
-      opacity: 1;
-    transition: opacity 250ms ease-in-out 250ms;
-    } */
-
+   
     
 }
 

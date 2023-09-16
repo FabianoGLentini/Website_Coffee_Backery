@@ -22,22 +22,26 @@
 			<header class="width-100 main-color-01">
 
 				<!-- <input type="checkbox" id="nav-toggle" class="nav-toggle"> -->
-				<label for="nav-toggle" class="nav-toggle-label">
+				<!-- <label for="nav-toggle" class="nav-toggle-label">
 					<span></span>
-				</label>
+				</label> -->
 
 
 				<a class="mini-logo-anchor" href="" >
 					<img class="miniLogo" src="css/assets/img/design_logos/Mini-Logo.svg" alt="Cafe Boulange">
 				</a>
 
+				<button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+					<span class="sr-only">Menu</span>
+				</button>
+
 				<nav class="nav-body height-100 brown-text">
-					<ul class="nav-option flex-row ">
+					<ul id="primary-navigation" class="nav-option flex-row ">
 						<li class="hoverGlow"><a href="">Location</a></li>
 						<li class="hoverGlow" ><a href="">Menu</a></li>
 						<li class="hoverGlow" ><a href="">About Us</a></li>
 					</ul>
-					<ul class="nav-option flex-row">
+					<ul id="primary-navigation" class="nav-option flex-row">
 						<li class="hoverGlow" ><a href="">Contact Us</a></li>
 						<li class="hoverGlow" ><a href="">Hiring</a></li>
 						<li>
@@ -50,7 +54,6 @@
 					</ul>
 				</nav>
 
-				<button><span class="sr-only">Menu</span></button>
 
 			</header>
 
