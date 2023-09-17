@@ -204,11 +204,6 @@ header nav>ul>*{
   align-items: center;
 }
 
-
-/* .nav-toggle{
-  display: none;
-} */
-
 .social-icons{
   align-items: center;
   gap: 13%; 
@@ -217,6 +212,10 @@ header nav>ul>*{
 
 .social-icons img{
   width: 150%;
+}
+
+.mobile-nav-toggle{
+  display: none;
 }
 
 /*MINI LOGO*/
@@ -633,14 +632,21 @@ footer{
     z-index: 999;
     flex-direction: column;
   }
+
+
   
   .nav-body{
     display: block;
     height: auto ;
     background-color: var(--main-clr-01);
-    /* transform: scale(1,0); */
-    /* transform-origin: top; */
-    /* transition: transform 400ms ease-in-out; */
+
+    transform: translateY(-100%);
+    
+    overflow-y: hidden;
+  }
+
+  .primary-navigation[data-visible="true"] {
+    transform: 100%;
   }
   
   header nav>ul{
@@ -682,7 +688,17 @@ footer{
 
     /*nav toggle effec*/
 
-   
+    .mobile-nav-toggle{
+      display: block;
+      position: absolute;
+      z-index: 9999;
+      background-color: red;
+      width: 1rem;
+      aspect-ratio: 1;
+      top: 2rem;
+      right: 2rem;
+    }
+
     
 }
 

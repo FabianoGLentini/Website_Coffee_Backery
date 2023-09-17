@@ -29,3 +29,17 @@ function paralaxScroll(){
     parallax.style.backgroundPositionY = offset * 0.7 +"px"
     parallax02.style.backgroundPositionY = offset * 0.7 +"px"
 }
+
+
+/******************************************
+/* Nav Bar Toggle
+/*******************************************/
+
+const primaryNav = document.querySelector(".primary-navigation")
+const navToggle = document.querySelector(".mobile-nav-toggle")
+
+navToggle.addEventListener("click", () => {
+    const visibility = primaryNav.getAttribute("data-visible")
+
+    console.log(visibility)
+})
