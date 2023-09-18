@@ -638,28 +638,12 @@ footer{
   .nav-body{
     display: block;
     height: auto ;
+    z-index: 1000;
     background-color: var(--main-clr-01);
 
     transform: translateY(-100%);
-    
-    overflow-y: hidden;
-  }
-
-  .primary-navigation[data-visible="true"] {
-    transform: 100%;
   }
   
-  header nav>ul{
-    justify-content: flex-start;
-    align-items: start;
-  }
-  
-  header nav>ul>*{
-    padding: 0 5px;
-    display: flex;
-    justify-content: center;
-  }
-
   .nav-option{
     display: flex;
     flex-direction: column;
@@ -684,6 +668,8 @@ footer{
   .mini-logo-anchor{
     display: flex;
     position: static;
+    z-index: 1100;
+    background-color: var(--main-clr-01);
   }
 
     /*nav toggle effec*/
@@ -693,10 +679,15 @@ footer{
       position: absolute;
       z-index: 9999;
       background-color: red;
-      width: 1rem;
+      width: 2rem;
+      border: 0;
       aspect-ratio: 1;
-      top: 2rem;
+      top: 2rem; 
       right: 2rem;
+    }
+
+    .nav-body[datat-visible="true"]{
+      transform: translateY(0%);
     }
 
     

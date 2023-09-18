@@ -35,7 +35,7 @@ function paralaxScroll(){
 /* Nav Bar Toggle
 /*******************************************/
 
-const primaryNav = document.querySelector(".primary-navigation")
+const primaryNav = document.querySelector(".nav-body")
 const navToggle = document.querySelector(".mobile-nav-toggle")
 
 navToggle.addEventListener("click", () => {
