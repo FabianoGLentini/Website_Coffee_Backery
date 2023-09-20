@@ -635,14 +635,7 @@ footer{
 
 
   
-  .nav-body{
-    display: block;
-    height: auto ;
-    z-index: 1000;
-    background-color: var(--main-clr-01);
-
-    transform: translateY(-100%);
-  }
+  
   
   .nav-option{
     display: flex;
@@ -686,8 +679,18 @@ footer{
       right: 2rem;
     }
 
-    .nav-body[datat-visible="true"]{
-      transform: translateY(0%);
+    .nav-body{
+      display: block;
+      height: auto ;
+      z-index: 1000;
+      background-color: var(--main-clr-01);
+  
+      transform: translateY(-100%);
+    }
+
+    .nav-body[data-visible="true"]{
+      transform: translateY(0%) !important;
+      background-color: pink !important;
     }
 
     
