@@ -675,7 +675,7 @@ footer{
       background-image: url(assets/img/Icons/134216_menu_lines_hamburger_icon\ 1.svg);
       background-repeat: no-repeat;
       border: 0;
-      background-color: var(--main-clr-01);
+      background-color: transparent;
       aspect-ratio: 1;
       top: 2.5rem; 
       right: 3vw;
@@ -695,6 +695,11 @@ footer{
       transform: translateY(0%) !important;
     }
 
+    .mobile-nav-toggle[aria-expanded="true"]{
+      background-image:url(assets/img/Icons/menu_X.svg) ;
+      top: 3.2rem; 
+      right: 1.8vw;
+    }
     
 }
 
