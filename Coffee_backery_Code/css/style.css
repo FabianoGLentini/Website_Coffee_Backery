@@ -670,13 +670,15 @@ footer{
     .mobile-nav-toggle{
       display: block;
       position: absolute;
+      width: 3rem;
       z-index: 9999;
-      background-color: red;
-      width: 2rem;
+      background-image: url(assets/img/Icons/134216_menu_lines_hamburger_icon\ 1.svg);
+      background-repeat: no-repeat;
       border: 0;
+      background-color: var(--main-clr-01);
       aspect-ratio: 1;
-      top: 2rem; 
-      right: 2rem;
+      top: 2.5rem; 
+      right: 3vw;
     }
 
     .nav-body{
