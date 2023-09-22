@@ -698,7 +698,7 @@ footer{
     .nav-body li a{
       opacity: 0;
 
-      transition: opacity 350ms ease-out;
+      transition: opacity 450ms ease-in;
     }
 
     .nav-body[data-visible="true"] li a{
