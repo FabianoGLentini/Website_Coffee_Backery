@@ -520,6 +520,8 @@ header nav>ul>*{
         background-color: var(--accent-clr-03);
       }
 
+      .is-hidden{display: none;}
+
 /* Footer */
 
 footer{
