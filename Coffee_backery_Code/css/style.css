@@ -32,7 +32,7 @@
   margin: 0px;
 }
 
-/* Normalize default*/
+/* Normalize Extra*/
 
 li, a{
   list-style: none;
@@ -42,6 +42,11 @@ li, a{
 
 ul, menu{
   padding: 0;
+}
+
+button{
+  border: none;
+  background-color: transparent;
 }
 
 /******************************************
@@ -450,6 +455,12 @@ header nav>ul>*{
     .main-product-info span{
       font-size: 2.35rem;
     }
+
+      /*Carousel*/
+
+      .carousel{
+        position: relative;
+      }
 
 /* Footer */
 
