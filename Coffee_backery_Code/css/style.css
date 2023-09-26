@@ -460,6 +460,23 @@ header nav>ul>*{
 
       .carousel{
         position: relative;
+        height: 850px;
+      }
+
+        /*Omited some stuff, just a note to keep  in minnd for down the line if needed*/
+
+      .carousel__track-container{
+        background: lightgreen;
+        padding: 10px;
+        height: 100%;
+      }
+
+      .carousel__slide{
+        background-color: green;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
       }
 
 /* Footer */
