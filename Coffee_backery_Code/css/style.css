@@ -463,14 +463,11 @@ header nav>ul>*{
         height: 850px;
       }
 
-        /*Omited some stuff, just a note to keep  in minnd for down the line if needed*/
-      
       .carousel__track {
         transition: transform 250ms ease-in;
       }
 
       .carousel__track-container{
-        /* background: lightgreen; */
         position: relative;
         padding: 10px;
         height: 100%;
@@ -478,7 +475,6 @@ header nav>ul>*{
       }
 
       .carousel__slide{
-        /* background-color: green; */
         position: absolute;
         top: 0;
         bottom: 0;
