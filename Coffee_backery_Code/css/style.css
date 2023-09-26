@@ -464,6 +464,10 @@ header nav>ul>*{
       }
 
         /*Omited some stuff, just a note to keep  in minnd for down the line if needed*/
+      
+      .carousel__track {
+        transition: transform 250ms ease-in;
+      }
 
       .carousel__track-container{
         /* background: lightgreen; */
@@ -510,7 +514,7 @@ header nav>ul>*{
         margin: 0 12px;
       }
 
-      .current-slide {
+      button.current-slide {
         background-color: var(--accent-clr-03);
       }
 
