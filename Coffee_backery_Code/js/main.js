@@ -72,17 +72,47 @@ function setSlidePosition(slides, i) {
   slides.style.left = slideWidth * i + "px"
 }
 
+function moveToSlide(track, currentSlide, targetSlide){
+  track.style.transform = "translateX( -" + targetSlide.style.left + ")"
+  currentSlide.classList.remove("current-slide")
+  targetSlide.classList.add("current-slide")
+}
+
 // When I click left, move slides to the left
+prevButton.addEventListener("click", e => {
+  const currentSlide = track.querySelector(".current-slide")
+  const prevSlide = currentSlide.previousElementSibling
+
+  moveToSlide(track, currentSlide, prevSlide)
+})
+
+
 // When I click right, move slides to the right
 nextButton.addEventListener("click", e => {
   const currentSlide = track.querySelector(".current-slide")
   const nextSlide = currentSlide.nextElementSibling
-  const amountToMove = nextSlide.style.left
 
-  // const move to the next slide
-  track.style.transform = "translateX( -" + amountToMove + ")"
-  currentSlide.classList.remove("current-slide")
-  nextSlide.classList.add("current-slide")
+  moveToSlide(track, currentSlide, nextSlide)
 })
 
 // When I click the nav indicators, move to that slide
+
+dotsNav.addEventListener("click", e => {
+  // what indicator was clicked om?
+
+  const targetDot = e.target.closest("button")
+
+  if(!targetDot) return;
+
+
+  const currentSlide = track.querySelector(".current-slide")
+  const currentDot = dotsNav.querySelector(".current-slide")
+  const targetIndex = dots.findIndex(dot => dot === targetDot)
+  const targetSlide = slides[targetIndex]
+
+  moveToSlide(track, currentSlide, targetSlide)
+
+  currentDot.classList.remove("current-slide")
+  currentDot.classList.add("current-slide")
+})
+

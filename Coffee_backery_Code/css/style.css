@@ -474,6 +474,7 @@ header nav>ul>*{
         position: relative;
         padding: 10px;
         height: 100%;
+        overflow: hidden;
       }
 
       .carousel__slide{
@@ -512,6 +513,7 @@ header nav>ul>*{
         height: 20px;
         background-color: var(--accent-clr-02);
         margin: 0 12px;
+        cursor: pointer;
       }
 
       button.current-slide {
