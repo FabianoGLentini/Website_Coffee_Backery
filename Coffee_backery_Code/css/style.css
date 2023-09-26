@@ -487,7 +487,7 @@ header nav>ul>*{
 
       .carousel__button {
         position: absolute;
-        z-index: 9999;
+        z-index: 1;
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;
@@ -498,7 +498,7 @@ header nav>ul>*{
       }
 
       .carousel__button--right {
-        right: -25px;
+        right: 0;
       }
 
       .carousel__nav--bottom {
