@@ -71,7 +71,7 @@ function setSlidePosition(slides, i) {
 }
 
 function moveToSlide(track, currentSlide, targetSlide){
-  track.style.transform = "translateX( -" + targetSlide.style.left + ")"
+  track.style.transform = `translateX( -${targetSlide.style.left})`
   currentSlide.classList.remove("current-slide")
   targetSlide.classList.add("current-slide")
 }
@@ -125,8 +125,9 @@ nextButton.addEventListener("click", e => {
 // When I click the nav indicators, move to that slide
 
 dotsNav.addEventListener("click", e => {
+  
+  
   // what indicator was clicked om?
-
   const targetDot = e.target.closest("button")
 
   if(!targetDot) return;

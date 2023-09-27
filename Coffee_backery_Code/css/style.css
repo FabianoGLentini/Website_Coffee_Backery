@@ -184,7 +184,6 @@ body{
 /*Header*/
 
 header{
-  position: fixed;
   z-index: 999;
   height: 8rem;
 }
@@ -230,11 +229,13 @@ header nav>ul>*{
     width: 330px;
   }
 
-  .mini-logo-anchor{
-    width: 100%;
+  .mini-logo__div{
     display: flex;
     justify-content: center;
     align-self: center;
+  }
+
+  .mini-logo-anchor{
     position: absolute;
   }
 
@@ -410,7 +411,7 @@ header nav>ul>*{
       flex-shrink: 0;
       position: relative;
       flex-direction: column;
-      justify-content: flex-end;
+      /* justify-content: flex-end; */
       width: 255px;
       margin: 3% 4%;
 
@@ -468,8 +469,8 @@ header nav>ul>*{
       }
 
       .carousel__track-container{
+
         position: relative;
-        padding: 10px;
         height: 100%;
         overflow: hidden;
       }
@@ -700,10 +701,6 @@ footer{
     flex-direction: column;
   }
 
-
-  
-  
-  
   .nav-option{
     display: flex;
     flex-direction: column;
