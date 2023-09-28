@@ -42,6 +42,8 @@ const track = document.querySelector(".carousel__track")
 const slides = Array.from(track.children)
 const nextButton = document.querySelector(".carousel__button--right")
 const prevButton = document.querySelector(".carousel__button--left")
+const nameDisplayNav = document.querySelector(".carousel__nav-by-name--top")
+const nameNav = Array.from(nameDisplayNav.children)
 const dotsNav = document.querySelector(".carousel__nav--bottom")
 const dots = Array.from(dotsNav.children)
 
@@ -107,12 +109,31 @@ nextButton.addEventListener("click", e => {
   hideShowArrows(slides, prevButton, nextButton, nextIndex)
 })
 
-// When I click the nav indicators, move to that slide
+// When click on nav options type, move display to appropriate slide
+nameDisplayNav.addEventListener("click", e => {
 
+  // What indicator was clicked on
+  const targetName = e.target.closest("li")
+
+  if(!targetName) return
+
+  const currentSlide = track.querySelector(".current-slide")
+  const currentName = nameDisplayNav.querySelector(".current-slide")
+  const targetIndex = nameNav.findIndex( el => el === targetName)
+  const targetSlide = slides[targetIndex]
+
+  moveToSlide(track, currentSlide, targetSlide)
+  // need to add an updateNavName effect and function to visual display what name is selected
+  hideShowArrows(slides, prevButton, nextButton, targetIndex)
+
+})
+
+
+// When click the nav dots indicators, move to that slide
 dotsNav.addEventListener("click", e => {
   
   
-  // what indicator was clicked om?
+  // What indicator was clicked on?
   const targetDot = e.target.closest("button")
 
   if(!targetDot) return;

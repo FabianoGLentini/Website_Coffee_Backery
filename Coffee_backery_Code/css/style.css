@@ -633,7 +633,9 @@ footer{
   position: relative;
   height: 40px;
   border-radius: 15px;
+  cursor: pointer
 }
+
 
 .menuGlow::after{
   content: "";
@@ -649,7 +651,7 @@ footer{
   transition: transform 110ms ease-in;
 }
 
-.menuGlow:hover > a{
+.menuGlow:hover > span{
   color: var(--white-clr);
 }
 
