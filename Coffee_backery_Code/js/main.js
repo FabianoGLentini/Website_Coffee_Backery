@@ -123,7 +123,7 @@ nameDisplayNav.addEventListener("click", e => {
   const targetSlide = slides[targetIndex]
 
   moveToSlide(track, currentSlide, targetSlide)
-  // need to add an updateNavName effect and function to visual display what name is selected
+  updateDots(currentName, targetName)
   hideShowArrows(slides, prevButton, nextButton, targetIndex)
 
 })

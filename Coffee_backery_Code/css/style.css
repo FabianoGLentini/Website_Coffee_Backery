@@ -555,7 +555,7 @@ footer{
   --white-clr: white;
   --accent-clr-01: #85b9c4;
   --accent-clr-02: #85bac4a1;
-  --accent-clr-03: rgba(72, 153, 169, 0.85) ;
+  --accent-clr-03: rgba(72, 153, 169, 0.85);
 }
 
 /*Page Color*/
@@ -636,6 +636,15 @@ footer{
   cursor: pointer
 }
 
+.menuGlow.current-slide{
+  border-radius: 55px;
+  background-image: radial-gradient(var(--accent-clr-03),  rgba(72, 153, 169, 0));
+}
+
+.current-slide .menuBgGlow{
+  color: var(--white-clr);
+}
+
 
 .menuGlow::after{
   content: "";
@@ -655,6 +664,9 @@ footer{
   color: var(--white-clr);
 }
 
+li.current-slide:hover{
+  background-image: none;
+}
 .menuGlow:hover{
   background-color: var(--focus-clr);
   border-radius: 15px;
