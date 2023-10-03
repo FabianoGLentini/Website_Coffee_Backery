@@ -1,6 +1,6 @@
 # Cafe-Boulange Website
 
-#### Figma design for the website:
+#### Figma design PDF for the website:
 
 ![Cafe-Boulange](https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4)
 
