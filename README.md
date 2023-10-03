@@ -1,33 +1,38 @@
-Cafe-Boulange Website
-Cafe-Boulange
+# Cafe-Boulange Website
 
-Welcome to the Cafe-Boulange website repository! This is a fictional storefront website I designed using Figma and coded using CSS, HTML, and JavaScript. Some anchor tags, such as the social media icons, are left empty as it is a fictional store. I have plans to enhance the website with additional pages and features in the near future.
+## Website for a fictional bakery store 
 
-Planned Additions to the Website
-Hiring Page
-Dedicated Location Page
-Dedicated Product Display Page
-More Interactive Functionalities
-Figma Design
-Check out my Figma design for the planned additions here.
+A fictional storefront website I designed using figma and coded using CSS, HTML and JS. Some anchor tags are empty such as the social media icons, as it is a fictional store. I plan to add more pages and features to the website in the near future.
 
-Image Credits
-The images used in my website design are sourced from Pexels, with credits to the following artists:
+### Planed addition to the website:
+Hiring page
+Dedicated page for location
+Dedicated page for product display
+And more interactive functionalities to the website
 
-Main Images:
+### My Figma Design for the planned website:
+![Cafe-Boulange_Figma Design](https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4)
 
-Tim Douglas
-Kasia Palitava
-Dmitry Zvolskiy
-Product Images:
 
-Brigitte Tohm
-Chevanon Photography
-Tyler Nix
-Pixabay
-Denis Zagorodniuc
-Polina Kovaleva
-Georgie Devlin
-Kübra Doğu
-Valeria Boltneva
-Feel free to explore the website and the planned additions. If you have any suggestions or questions, please don't hesitate to reach out. Enjoy browsing! 🍰🍪🍵
+
+#### Image Credits:
+
+The images used in my website design are downloaded from [Pexels](https://www.pexels.com/) and the  artist who provided the img are:
+
+  ##### Main img:
+[Tim Douglas](https://www.pexels.com/@tim-douglas/),
+[Kasia Palitava](https://www.pexels.com/@kasia-palitava-132623147/) and
+[Dmitry Zvolskiy](https://www.pexels.com/@zvolskiy/)
+
+  ##### Product img:
+[Brigitte Tohm](https://www.pexels.com/@brigitte-tohm-36757/),
+[Chevanon Photography](https://www.pexels.com/@chevanon/),
+[Tyler Nix](https://www.pexels.com/@tyler-nix-1259808/),
+[Pixabay](https://www.pexels.com/@pixabay/),
+[Denis Zagorodniuc](https://www.pexels.com/@imdennyz/),
+[Polina Kovaleva](https://www.pexels.com/@polina-kovaleva/),
+[Georgie Devlin](https://www.pexels.com/@georgie-devlin-76906720/),
+[Kübra Doğu](https://www.pexels.com/@kubra-dogu-80605500/) and
+[Valeria Boltneva](https://www.pexels.com/@valeriya/)
+
+
