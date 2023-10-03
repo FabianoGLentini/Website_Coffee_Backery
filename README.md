@@ -21,7 +21,7 @@ The images used in my website design are downloaded from [Pexels](https://www.pe
 
   ##### Main img:
 [Tim Douglas](https://www.pexels.com/@tim-douglas/),
-[Kasia Palitava](https://www.pexels.com/@kasia-palitava-132623147/),
+[Kasia Palitava](https://www.pexels.com/@kasia-palitava-132623147/) and
 [Dmitry Zvolskiy](https://www.pexels.com/@zvolskiy/)
 
   ##### Product img:
@@ -32,5 +32,5 @@ The images used in my website design are downloaded from [Pexels](https://www.pe
 [Denis Zagorodniuc](https://www.pexels.com/@imdennyz/),
 [Polina Kovaleva](https://www.pexels.com/@polina-kovaleva/),
 [Georgie Devlin](https://www.pexels.com/@georgie-devlin-76906720/),
-[Kübra Doğu](https://www.pexels.com/@kubra-dogu-80605500/),
-[Valeria Boltneva](https://www.pexels.com/@valeriya/),
+[Kübra Doğu](https://www.pexels.com/@kubra-dogu-80605500/) and
+[Valeria Boltneva](https://www.pexels.com/@valeriya/)
