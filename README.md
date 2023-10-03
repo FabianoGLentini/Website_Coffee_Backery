@@ -18,13 +18,13 @@ And more interactive functionalities to the website
 #### Image Credits:
 
 The images used in my website design are downloaded from [Pexels](https://www.pexels.com/) and the  artist who provided the img are:
-	
-	Main img:
+
+  ##### Main img:
 [Tim Douglas](https://www.pexels.com/@tim-douglas/),
 [Kasia Palitava](https://www.pexels.com/@kasia-palitava-132623147/),
 [Dmitry Zvolskiy](https://www.pexels.com/@zvolskiy/)
 
-  Product img:
+  ##### Product img:
 [Brigitte Tohm](https://www.pexels.com/@brigitte-tohm-36757/),
 [Chevanon Photography](https://www.pexels.com/@chevanon/),
 [Tyler Nix](https://www.pexels.com/@tyler-nix-1259808/),
