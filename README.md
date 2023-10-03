@@ -20,17 +20,17 @@ And more interactive functionalities to the website
 The images used in my website design are downloaded from [Pexels](https://www.pexels.com/) and the  artist who provided the img are:
 	
 	Main img:
-[Tim Douglas](https://www.pexels.com/@tim-douglas/)
-[Kasia Palitava)(https://www.pexels.com/@kasia-palitava-132623147/)
+[Tim Douglas](https://www.pexels.com/@tim-douglas/),
+[Kasia Palitava)(https://www.pexels.com/@kasia-palitava-132623147/),
 [Dmitry Zvolskiy](https://www.pexels.com/@zvolskiy/)
 
   Product img:
-[Brigitte Tohm](https://www.pexels.com/@brigitte-tohm-36757/)
-[Chevanon Photography](https://www.pexels.com/@chevanon/)
-[Tyler Nix](https://www.pexels.com/@tyler-nix-1259808/)
-[Pixabay](https://www.pexels.com/@pixabay/)
-[Denis Zagorodniuc](https://www.pexels.com/@imdennyz/)
-[Polina Kovaleva](https://www.pexels.com/@polina-kovaleva/)
-[Georgie Devlin](https://www.pexels.com/@georgie-devlin-76906720/)
-[Kübra Doğu](https://www.pexels.com/@kubra-dogu-80605500/)
-[Valeria Boltneva](https://www.pexels.com/@valeriya/)
+[Brigitte Tohm](https://www.pexels.com/@brigitte-tohm-36757/),
+[Chevanon Photography](https://www.pexels.com/@chevanon/),
+[Tyler Nix](https://www.pexels.com/@tyler-nix-1259808/),
+[Pixabay](https://www.pexels.com/@pixabay/),
+[Denis Zagorodniuc](https://www.pexels.com/@imdennyz/),
+[Polina Kovaleva](https://www.pexels.com/@polina-kovaleva/),
+[Georgie Devlin](https://www.pexels.com/@georgie-devlin-76906720/),
+[Kübra Doğu](https://www.pexels.com/@kubra-dogu-80605500/),
+[Valeria Boltneva](https://www.pexels.com/@valeriya/),
