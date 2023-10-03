@@ -1,10 +1,10 @@
-#Cafe-Boulange Website
+# Cafe-Boulange Website
 
-##Website for a fictional bakery store 
+## Website for a fictional bakery store 
 
 A fictional storefront website I designed using figma and coded using CSS, HTML and JS. Some anchor tags are empty such as the social media icons, as it is a fictional store. I plan to add more pages and features to the website in the near future.
 
-###Planed addition to the website:
+### Planed addition to the website:
 Hiring page
 Dedicated page for location
 Dedicated page for product display
