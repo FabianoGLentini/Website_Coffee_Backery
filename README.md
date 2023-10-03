@@ -10,7 +10,7 @@ Dedicated page for location
 Dedicated page for product display
 And more interactive functionalities to the website
 
-###My Figma Design for the planned website:
+### My Figma Design for the planned website:
 ![Cafe-Boulange_Figma Design](https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4)
 
 
