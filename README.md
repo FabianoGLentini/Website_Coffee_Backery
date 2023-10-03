@@ -12,6 +12,7 @@ Welcome to the Cafe-Boulange website repository! This is a fictional storefront 
 ## Figma Design
 
 Check out my Figma design for the planned additions [here](https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4).
+
 ![Cafe-Boulange](https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4)
 
 ## Image Credits
