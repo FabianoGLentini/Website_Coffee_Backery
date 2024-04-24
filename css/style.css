@@ -821,3 +821,16 @@ li.current-slide:hover{
   white-space: nowrap; 
   width: 1px;
 }
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/*Scrolling Styling*/
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10rem;
+}
+ 
