@@ -65,7 +65,7 @@ function moveToSlide(track, currentSlide, targetSlide){
 
 function updateDots(currentDot, targetDot){
   currentDot.classList.remove("current-slide")
-  targetDot.classList.add("current-slide")
+  targetDot.classList.add("current-slide") // Error Accures here wherer we get null on classlist
 }
 
 function hideShowArrows(slides, prevButton, nextButton, targetIndex){
@@ -81,11 +81,23 @@ function hideShowArrows(slides, prevButton, nextButton, targetIndex){
   }
 }
 
-// Update Nav button class .currrent-slide  !!! Note this is maybe what is needed so wwe dont get the type Error 
+/* Update Nav button class .currrent-slide  !!! Note this is maybe what is needed so wwe dont get the type Error 
 
-//Error comes up when we click on the nav bar button and then use teh arrow key buttons, somethign isent tracking or matching upwith eachotjer
+Error comes up when we click on the nav bar button and then use the arrow key buttons, somethign isent tracking or matching upwith eachother. 
 
-/*Uncaught TypeError: Cannot read properties of null (reading 'classList')
+- Note the code line that keeps running into error seasm to be 68 consistently and then after clicking again after this error the error appears on another line where the element is being use in another variable
+
+      Idea for Fix
+
+        1. Create a function or process that happens if we run into such an error Either when we get the first line 68 error or on the secondary error... 
+
+
+        2. We can check if insuring that both nav and product display page update eachothers class so they match the page they are with; insure the dots are also doing this.
+
+
+
+
+Uncaught TypeError: Cannot read properties of null (reading 'classList')
     at updateDots (main.js:68:13)
     at HTMLButtonElement.<anonymous> (main.js:93:3)
 
