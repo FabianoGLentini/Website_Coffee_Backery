@@ -102,7 +102,9 @@ Error comes up when we click on the nav bar button and then use the arrow key bu
             -Confirmed the dots dont update when using nav
 
             atp:
-              1- add theupdatedDots function to nameDisplayNav function []
+              1- add theupdatedDots function to nameDisplayNav function [flase]
+
+              2- make it so that it updates it in the 
 
 
 
@@ -158,14 +160,12 @@ nameDisplayNav.addEventListener("click", e => {
 
   const currentSlide = track.querySelector(".current-slide")
 
-  const currentDot = dotsNav.querySelector(".current-slide")// Fix 3 atmp 1
+  // const currentDot = dotsNav.querySelector(".current-slide")// Fix 3 atmp 1 Added Line
 
   const currentName = nameDisplayNav.querySelector(".current-slide")
-  const targetIndex = nameNav.findIndex( el => el === targetName)
+  const targetIndex = nameNav.findIndex( el => el === targetName) 
+  // const targetIndexDots = dots.findIndex(dot => dot === targetDot) // Fix 3 atmp 1 Added Line
   const targetSlide = slides[targetIndex]
-
-  //Fix 3. atmp 1-
-
 
 
 
