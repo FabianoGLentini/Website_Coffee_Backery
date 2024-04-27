@@ -81,6 +81,22 @@ function hideShowArrows(slides, prevButton, nextButton, targetIndex){
   }
 }
 
+// Update Nav button class .currrent-slide  !!! Note this is maybe what is needed so wwe dont get the type Error 
+
+//Error comes up when we click on the nav bar button and then use teh arrow key buttons, somethign isent tracking or matching upwith eachotjer
+
+/*Uncaught TypeError: Cannot read properties of null (reading 'classList')
+    at updateDots (main.js:68:13)
+    at HTMLButtonElement.<anonymous> (main.js:93:3)
+
+    and
+
+    Uncaught TypeError: Cannot read properties of null (reading 'previousElementSibling')
+    at HTMLButtonElement.<anonymous> (main.js:89:30)
+    
+    */
+
+
 // When I click left, move slides to the left
 prevButton.addEventListener("click", e => {
   const currentSlide = track.querySelector(".current-slide")
@@ -101,7 +117,7 @@ nextButton.addEventListener("click", e => {
   const currentSlide = track.querySelector(".current-slide")
   const nextSlide = currentSlide.nextElementSibling
   const currentDot = dotsNav.querySelector(".current-slide")
-  const nextDot = currentDot.nextElementSibling
+  const nextDot = currentDot.nextElementSibling 
   const nextIndex = slides.findIndex(slide => slide === nextSlide)
 
   moveToSlide(track, currentSlide, nextSlide)
