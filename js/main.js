@@ -87,12 +87,19 @@ Error comes up when we click on the nav bar button and then use the arrow key bu
 
 - Note the code line that keeps running into error seasm to be 68 consistently and then after clicking again after this error the error appears on another line where the element is being use in another variable
 
+- Additional notice: 
+    -It seams that the error is happening through the currentDot function when trying to select previousElementSibling or another method of the sort.
+
       Idea for Fix
 
         1. Create a function or process that happens if we run into such an error Either when we get the first line 68 error or on the secondary error... 
 
 
         2. We can check if insuring that both nav and product display page update eachothers class so they match the page they are with; insure the dots are also doing this.
+
+        3. Dots class not updating when selecting through nav bar? Mayube we need to insure it is updating when clicking nav as well. 
+          -To add it does seam that we do not run into same error when using the dots as oppose to the nav, so this error is accuring specifically when using the nav options,m something might not be updating or sincking together
+            -Confirmed the dots dont update when using nav
 
 
 
