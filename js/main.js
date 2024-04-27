@@ -101,6 +101,9 @@ Error comes up when we click on the nav bar button and then use the arrow key bu
           -To add it does seam that we do not run into same error when using the dots as oppose to the nav, so this error is accuring specifically when using the nav options,m something might not be updating or sincking together
             -Confirmed the dots dont update when using nav
 
+            atp:
+              1- add theupdatedDots function to nameDisplayNav function []
+
 
 
 
@@ -144,7 +147,7 @@ nextButton.addEventListener("click", e => {
   hideShowArrows(slides, prevButton, nextButton, nextIndex)
 })
 
-// When click on nav options type, move display to appropriate slide
+// When click on nav options type, move display to appropriate slide ***** Error *** Dots Not Changing 
 nameDisplayNav.addEventListener("click", e => {
 
   // What indicator was clicked on
@@ -152,13 +155,22 @@ nameDisplayNav.addEventListener("click", e => {
 
   if(!targetName) return
 
+
   const currentSlide = track.querySelector(".current-slide")
+
+  const currentDot = dotsNav.querySelector(".current-slide")// Fix 3 atmp 1
+
   const currentName = nameDisplayNav.querySelector(".current-slide")
   const targetIndex = nameNav.findIndex( el => el === targetName)
   const targetSlide = slides[targetIndex]
 
+  //Fix 3. atmp 1-
+
+
+
+
   moveToSlide(track, currentSlide, targetSlide)
-  updateDots(currentName, targetName)
+  updateDots(currentName, targetName) // this function isent working here -- Fix 3 atmp 1
   hideShowArrows(slides, prevButton, nextButton, targetIndex)
 
 })
