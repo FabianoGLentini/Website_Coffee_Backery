@@ -65,7 +65,7 @@ function moveToSlide(track, currentSlide, targetSlide){
 
 function updateDots(currentDot, targetDot){
   currentDot.classList.remove("current-slide")
-  targetDot.classList.add("current-slide") // Error Accures here wherer we get null on classlist
+  targetDot.classList.add("current-slide")
 }
 
 function hideShowArrows(slides, prevButton, nextButton, targetIndex){
@@ -81,53 +81,11 @@ function hideShowArrows(slides, prevButton, nextButton, targetIndex){
   }
 }
 
-
-// Creating function to update dots class to appropriatly clicked on slide, maybe via tracking the slide number index itself
-
-
+// Updates Dots Billow product display specifically when using Nav the nav bar of the product display
 function navUpdateDots (currentDot, index) {
   currentDot.classList.remove("current-slide")
   dots[index].classList.add("current-slide")
 }
-
-/* Update Nav button class .currrent-slide  !!! Note this is maybe what is needed so wwe dont get the type Error 
-
-Error comes up when we click on the nav bar button and then use the arrow key buttons, somethign isent tracking or matching upwith eachother. 
-
-- Note the code line that keeps running into error seasm to be 68 consistently and then after clicking again after this error the error appears on another line where the element is being use in another variable
-
-- Additional notice: 
-    -It seams that the error is happening through the currentDot function when trying to select previousElementSibling or another method of the sort.
-
-      Idea for Fix
-
-        1. Create a function or process that happens if we run into such an error Either when we get the first line 68 error or on the secondary error... 
-
-
-        2. We can check if insuring that both nav and product display page update eachothers class so they match the page they are with; insure the dots are also doing this.
-
-        3. Dots class not updating when selecting through nav bar? Mayube we need to insure it is updating when clicking nav as well. 
-          -To add it does seam that we do not run into same error when using the dots as oppose to the nav, so this error is accuring specifically when using the nav options,m something might not be updating or sincking together
-            -Confirmed the dots dont update when using nav
-
-            atp:
-              1- add theupdatedDots function to nameDisplayNav function [flase]
-
-              2- make it so that it updates it in the 
-
-
-
-
-Uncaught TypeError: Cannot read properties of null (reading 'classList')
-    at updateDots (main.js:68:13)
-    at HTMLButtonElement.<anonymous> (main.js:93:3)
-
-    and
-
-    Uncaught TypeError: Cannot read properties of null (reading 'previousElementSibling')
-    at HTMLButtonElement.<anonymous> (main.js:89:30)
-    
-    */
 
 
 // When I click left, move slides to the left
@@ -158,7 +116,7 @@ nextButton.addEventListener("click", e => {
   hideShowArrows(slides, prevButton, nextButton, nextIndex)
 })
 
-// When click on nav options type, move display to appropriate slide ***** Error *** Dots Not Changing 
+// When click on nav options type, move display to appropriate slide
 nameDisplayNav.addEventListener("click", e => {
 
   // What indicator was clicked on
@@ -168,18 +126,11 @@ nameDisplayNav.addEventListener("click", e => {
 
 
   const currentSlide = track.querySelector(".current-slide")
-
-  const currentDot = dotsNav.querySelector(".current-slide")// Fix 3 atmp 1 Added Line
-
-  const currentName = nameDisplayNav.querySelector(".current-slide")
+  const currentDot = dotsNav.querySelector(".current-slide")
   const targetIndex = nameNav.findIndex( el => el === targetName) 
-  // const targetIndexDots = dots.findIndex(dot => dot === targetDot) // Fix 3 atmp 1 Added Line
   const targetSlide = slides[targetIndex]
 
-
-
   moveToSlide(track, currentSlide, targetSlide)
-  // updateDots(currentName, targetName) // this function isent working here -- Fix 3 atmp 1
   navUpdateDots(currentDot, targetIndex)
   hideShowArrows(slides, prevButton, nextButton, targetIndex)
 
