@@ -81,6 +81,15 @@ function hideShowArrows(slides, prevButton, nextButton, targetIndex){
   }
 }
 
+
+// Creating function to update dots class to appropriatly clicked on slide, maybe via tracking the slide number index itself
+
+
+function navUpdateDots (currentDot, index) {
+  currentDot.classList.remove("current-slide")
+  dots[index].classList.add("current-slide")
+}
+
 /* Update Nav button class .currrent-slide  !!! Note this is maybe what is needed so wwe dont get the type Error 
 
 Error comes up when we click on the nav bar button and then use the arrow key buttons, somethign isent tracking or matching upwith eachother. 
@@ -160,7 +169,7 @@ nameDisplayNav.addEventListener("click", e => {
 
   const currentSlide = track.querySelector(".current-slide")
 
-  // const currentDot = dotsNav.querySelector(".current-slide")// Fix 3 atmp 1 Added Line
+  const currentDot = dotsNav.querySelector(".current-slide")// Fix 3 atmp 1 Added Line
 
   const currentName = nameDisplayNav.querySelector(".current-slide")
   const targetIndex = nameNav.findIndex( el => el === targetName) 
@@ -170,7 +179,8 @@ nameDisplayNav.addEventListener("click", e => {
 
 
   moveToSlide(track, currentSlide, targetSlide)
-  updateDots(currentName, targetName) // this function isent working here -- Fix 3 atmp 1
+  // updateDots(currentName, targetName) // this function isent working here -- Fix 3 atmp 1
+  navUpdateDots(currentDot, targetIndex)
   hideShowArrows(slides, prevButton, nextButton, targetIndex)
 
 })
