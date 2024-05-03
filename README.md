@@ -2,6 +2,8 @@
 
 Welcome to the Cafe-Boulange website repository! This is a fictional storefront website I designed using Figma and coded using CSS, HTML, and JavaScript. Some anchor tags, such as the social media icons, are left empty as it is a fictional store. I have plans to enhance the website with additional pages and features in the near future.
 
+You can view the Website [here](https://fabianoglentini.github.io/Website_Coffee_Backery/).
+
 ## Planned Additions to the Website
 
 - Hiring Page
