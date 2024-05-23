@@ -32,6 +32,16 @@ navToggle.addEventListener("click", () => {
         primaryNav.setAttribute("data-visible" , false)  
         navToggle.setAttribute("aria-expanded", false)
       }
+
+})
+
+// Toggle nav menu bar off when click a link or outside menu bar
+
+document.addEventListener("click", e => {
+  if(!navToggle.contains(e.target)) {
+    primaryNav.setAttribute("data-visible" , false)  
+    navToggle.setAttribute("aria-expanded", false)
+  }
 })
 
 /******************************************
