@@ -186,6 +186,7 @@ body{
 header{
   z-index: 999;
   height: 8rem;
+  width: 100vw;
 }
 
 header nav{
@@ -286,10 +287,6 @@ header nav>ul>*{
 .about-us p{
   width: 390px;
   padding-bottom: 15px;
-}
-
-.about-us img{
-  min-width: 700px;
 }
 
 /*Pointers*/
@@ -708,6 +705,12 @@ li.current-slide:hover{
   /* Special bg*/
   .bg-img-02{
     background-size: 1300px;
+  }
+
+  /*About Us Section*/
+
+  .about-us img {
+    height: 50vw;
   }
 }
 
