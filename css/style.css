@@ -179,6 +179,7 @@ a{
 body{
   display: flex;
   flex-direction: column;
+  min-width: 320px;
 }
 
 /*Header*/
@@ -246,6 +247,8 @@ header nav>ul>*{
   .mini-logo-anchor{
     position: absolute;
   }
+
+  
 
 /*Big logo section Home*/
 
