@@ -338,7 +338,6 @@ header nav>ul>*{
 }
 
 
-
 /* Come Visit */
 
 .come-visit-section{
@@ -417,7 +416,6 @@ header nav>ul>*{
       flex-shrink: 0;
       position: relative;
       flex-direction: column;
-      /* justify-content: flex-end; */
       width: 255px;
       margin: 3% 4%;
 
@@ -834,8 +832,29 @@ li.current-slide:hover{
     padding: 2.5rem;
     width: 85%;
   }
-  
+
+  /*Out Goods*/
+
+  .product-card {
+    border-radius: 35px;
+  }
+
+  .card-body {
+    padding: 1.5% 5%;
+  }
+
 } 
+
+@media (max-width: 437px) {
+  
+  .product-card:hover .card-body{
+    top: 75%;
+    padding-top: 2%;
+    background: var(--focus-clr);
+
+  }
+  
+}
 
  /******************************************
 /* Accesscibilety
