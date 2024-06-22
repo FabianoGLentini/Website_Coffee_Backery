@@ -826,6 +826,14 @@ li.current-slide:hover{
   .about-us p{
     width: 80%;
   }
+
+
+  /*Come Visit*/
+
+  .come-visit-section{
+    padding: 2.5rem;
+    width: 85%;
+  }
   
 } 
 
