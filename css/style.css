@@ -814,22 +814,19 @@ li.current-slide:hover{
 }
 
 @media (max-width: 494px){
+
+  /* Header */
   .mini-logo-anchor img {
     width: 250px;
-    padding: 10px;
+    padding: 10px 0;
+  }
+
+  /*About Us*/
+
+  .about-us p{
+    width: 80%;
   }
   
-  /* body{
-    width: 100%;
-    max-width: 100%;
-  }  */
-
-  /* .bg-img{
-    border: 5px solid green;
-
-    width: 100% ;
-  }
-   */
 } 
 
  /******************************************
@@ -858,7 +855,3 @@ html {
   scroll-padding: 10rem;
 }
  
-
-/******************************************
-/* TESTING DIFFERENT METHODS
-/*******************************************/
