@@ -813,19 +813,22 @@ li.current-slide:hover{
 }
 
 @media (max-width: 494px){
-  .mini-logo-anchor img {
-    width: 50%;
-  }
-  body{
-    width: 100%;
-  }
-
-  .bg-img{
-    /* border: 5px solid green; */
-
-    width: 100% !important;
+  /* .mini-logo-anchor img {
+    width: 250px;
+    padding: 10px;
   }
   
+  body{
+    width: 100%;
+    max-width: 100%;
+  } */
+
+  /* .bg-img{
+    border: 5px solid green;
+
+    width: 100% ;
+  }
+   */
 } 
 
  /******************************************
