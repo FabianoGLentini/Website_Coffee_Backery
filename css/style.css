@@ -166,6 +166,8 @@ a{
   background-position: top ;
   background-color: var(--accent-clr-01);
   /* min-width: 100vw; */
+
+  /* object-fit: contain; */
 }
 
 .bg-img-02{
@@ -173,6 +175,8 @@ a{
   background-size: cover;
   background-position: bottom ;
   background-color: var(--accent-clr-01);
+
+  /* object-fit: fill; */
 }
 
 /*Body*/
@@ -234,9 +238,10 @@ header nav>ul>*{
 
 /*MINI LOGO*/
 
-  .mini-logo{
-    width: 100%;
-    width: 330px;
+  .mini-logo__div img{
+    border: 10px solid red;
+   
+
   }
 
   .mini-logo__div{
@@ -811,6 +816,10 @@ li.current-slide:hover{
       height: max(180vw, 900px);
     }
 
+}
+
+@media (max-width: 494px){
+  
 }
 
  /******************************************
