@@ -57,6 +57,7 @@ button{
 
 html{
   font-size: 62%;
+  background-color: var(--main-clr-01);
 }
 
 /* Headings General*/
@@ -813,15 +814,15 @@ li.current-slide:hover{
 }
 
 @media (max-width: 494px){
-  /* .mini-logo-anchor img {
+  .mini-logo-anchor img {
     width: 250px;
     padding: 10px;
   }
   
-  body{
+  /* body{
     width: 100%;
     max-width: 100%;
-  } */
+  }  */
 
   /* .bg-img{
     border: 5px solid green;
