@@ -674,7 +674,10 @@ li.current-slide:hover{
   color: var(--white-clr);
 }
 
-/*Media Querry*/
+ /******************************************
+/* Media Querry
+/*******************************************/
+
 
 @media (max-width: 624px){
 
