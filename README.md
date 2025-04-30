@@ -17,9 +17,9 @@ While some links (such as social media icons) are placeholders, the site demonst
 
 ---
 
-**Figma Design:** [View Design]([https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange.png))
+**Figma Design:** [View Design](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange.png)
 
-![Cafe-Boulange]([https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange.png))
+![Cafe-Boulange](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange.png)
 
 ---
 
