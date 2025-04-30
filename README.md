@@ -1,6 +1,6 @@
 # Cafe-Boulange Website
 
-Welcome to the **Cafe-Boulange** website — a polished fictional storefront crafted as a frontend design and development showcase. Built using **HTML**, **CSS**, and **JavaScript**, the site brings a charming café and bakery experience to life with an emphasis on clean design and responsive layout.
+Welcome to the **Cafe-Boulange** website, a polished fictional storefront crafted as a frontend design and development showcase. Built using **HTML**, **CSS**, and **JavaScript**, the site brings a charming café and bakery experience to life with an emphasis on clean design and responsive layout.
 
 **Live Website:** [Cafe-Boulange on GitHub Pages](https://fabianoglentini.github.io/Website_Coffee_Backery/)
 
@@ -17,9 +17,9 @@ While some links (such as social media icons) are placeholders, the site demonst
 
 ---
 
-**Figma Design:** [View Design](https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4)
+**Figma Design:** [View Design]([https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange.png))
 
-![Cafe-Boulange](https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4)
+![Cafe-Boulange]([https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange.png))
 
 ---
 
