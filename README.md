@@ -19,7 +19,7 @@ While some links (such as social media icons) are placeholders, the site demonst
 
 **Figma Design:** [View Design](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange.png)
 
-![Cafe-Boulange](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange.png)
+![Cafe-Boulange](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange%20Filled%20bg.png)
 
 ---
 
