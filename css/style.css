@@ -672,7 +672,7 @@ li.current-slide:hover {
 /* Media Querry
 /*******************************************/
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .bg-img-01 {
     background-image: url("assets/img/Big_View_Restaurant-BG/Big-view-\ Restaurant_BG_\(Tablet\).jpg");
   }
@@ -683,7 +683,6 @@ li.current-slide:hover {
 }
 
 @media (max-width: 624px) {
-
   .bg-img-01 {
     background-image: url("assets/img/Big_View_Restaurant-BG/Big-view-\ Restaurant_BG_\(Mobile\).jpg");
   }
@@ -691,7 +690,7 @@ li.current-slide:hover {
   .bg-img-02 {
     background-image: url("assets/img/Big_View_Restaurant-BG/Big-view-\ Restaurant_BG_\(Mobile\).jpg");
   }
-  
+
   /*Product display*/
 
   .product-card {
@@ -727,7 +726,6 @@ li.current-slide:hover {
 }
 
 @media (max-width: 1307px) {
-
   /*Header*/
 
   header {
