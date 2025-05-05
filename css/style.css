@@ -672,7 +672,26 @@ li.current-slide:hover {
 /* Media Querry
 /*******************************************/
 
+@media (max-width: 1200px){
+  .bg-img-01 {
+    background-image: url("assets/img/Big_View_Restaurant-BG/Big-view-\ Restaurant_BG_\(Tablet\).jpg");
+  }
+
+  .bg-img-02 {
+    background-image: url("assets/img/Big_View_Restaurant-BG/Big-view-\ Restaurant_BG_\(Tablet\).jpg");
+  }
+}
+
 @media (max-width: 624px) {
+
+  .bg-img-01 {
+    background-image: url("assets/img/Big_View_Restaurant-BG/Big-view-\ Restaurant_BG_\(Mobile\).jpg");
+  }
+
+  .bg-img-02 {
+    background-image: url("assets/img/Big_View_Restaurant-BG/Big-view-\ Restaurant_BG_\(Mobile\).jpg");
+  }
+  
   /*Product display*/
 
   .product-card {
@@ -697,7 +716,7 @@ li.current-slide:hover {
 @media (max-width: 756px) {
   /* Special bg*/
   .bg-img-02 {
-    background-size: 1300px;
+    background-size: 1200px;
   }
 
   /*About Us Section*/
@@ -708,6 +727,7 @@ li.current-slide:hover {
 }
 
 @media (max-width: 1307px) {
+
   /*Header*/
 
   header {
