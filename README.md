@@ -70,5 +70,5 @@ All imagery is sourced from [Pexels](https://www.pexels.com/) under the appropri
 
 ## Feedback
 
-This project is part of my front-end development portfolio. Constructive feedback and suggestions are welcome. If you would like to learn more about this project or discuss potential collaborations, plese fell free to reach out.
+This project is part of my front-end development portfolio. I welcome constructive feedback and suggestions. Please feel free to reach out if you want to learn more about this project or discuss potential collaborations.
 **Email:** Fabiano.G.Lentini@gmail.com
