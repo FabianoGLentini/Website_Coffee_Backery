@@ -1,27 +1,52 @@
 # Cafe-Boulange Website
 
-Welcome to the **Cafe-Boulange** website, a polished fictional storefront crafted as a frontend design and development showcase. Built using **HTML**, **CSS**, and **JavaScript**, the site brings a charming café and bakery experience to life with an emphasis on clean design and responsive layout.
+**Cafe-Boulange** is a fully responsive single-page front-end project simulating a modern café and bakery storefront. The site showcases a complete UI/UX workflow from design to development using semantic HTML5, CSS3, and vanilla JavaScript, with a focus on responsive design, clean code structure, and interactive JavaScript features.
 
-**Live Website:** [Cafe-Boulange on GitHub Pages](https://fabianoglentini.github.io/Website_Coffee_Backery/)
+**Live Preview:** [Cafe-Boulange on GitHub Pages]([https://fabianoglentini.github.io/Website_Coffee_Backery/](https://cafe-backery-demo.netlify.app/))
 
-While some links (such as social media icons) are placeholders, the site demonstrates full UI structure, design fidelity, and front-end coding capability for small business scenarios.
+## Project Overview
 
----
+This project demonstrates core front-end engineering skills without the use of external frameworks. Starting by creating a custom design prototyped in **Figma**, the site was implemented with an emphasis on semantic markup, responsive styling, and lightweight interactivity.
 
-## Project Features
+## Key Technical Features
 
-- Fully responsive
-- Clean, modern aesthetic reflecting the café’s warm atmosphere
-- Interactive elements and intuitive navigation
-- Designed and prototyped in **Figma**, then brought to life in code
+### HTML5
 
----
+* Semantic structure supporting accessibility and SEO.
+* Proper use of `alt` attributes and ARIA state indicators where applicable.
 
-**Figma Design:** [View Design](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange%20Filled%20bg.png)
+### CSS3
+
+* **Responsive design** using media queries for desktop, tablet, and mobile.
+* Custom typography integrated via `@font-face`.
+* Centralized color theming using CSS custom properties (:root) for maintainable and scalable design consistency.
+* **Normalize.css** and **reset.css** for cross-browser consistency.
+* Flexbox layout techniques.
+* Clear and semantic class naming for layout and styling.
+
+### JavaScript (ES6+)
+
+* **Parallax scrolling**: Dynamic background movement tied to scroll position.
+* **Mobile navigation toggle**: ARIA state management for responsive menu visibility.
+* **Carousel/product display**: Custom DOM manipulation and event handling to cycle featured content.
+
+### UI/UX Design
+
+* Visual design prototyped and iterated in **Figma**.
+* Layout and color scheme reflecting a modern, inviting café aesthetic.
+* Intuitive, scroll-based navigation.
+
+### Performance
+
+* Compressed and optimized image assets.
+* Minimal external dependencies for fast load times.
+
+## Design Prototype
+
+**Figma Design Preview:**
+[View Design](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange%20Filled%20bg.png)
 
 ![Cafe-Boulange](https://github.com/FabianoGLentini/Website_Coffee_Backery/blob/main/Cafe%20Boulange%20Filled%20bg.png)
-
----
 
 ## Image Credits
 
@@ -43,9 +68,7 @@ All imagery is sourced from [Pexels](https://www.pexels.com/) under the appropri
 - [Kübra Doğu](https://www.pexels.com/@kubra-dogu-80605500/)
 - [Valeria Boltneva](https://www.pexels.com/@valeriya/)
 
----
-
 ## Feedback
 
-This project is part of my front-end development portfolio. I welcome suggestions or ideas for improvement. Feel free to open an issue or reach out directly.
-
+This project is part of my front-end development portfolio. Constructive feedback and suggestions are welcome. If you would like to learn more about this project or discuss potential collaborations, plese fell free to reach out.
+**Email:** Fabiano.G.Lentini@gmail.com
